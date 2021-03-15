@@ -1,0 +1,1989 @@
+
+jamie@jamie-VirtualBox:~/Desktop/loda$ ./loda mine
+2021-03-12 06:16:19|INFO |Loading sequences from the OEIS index
+2021-03-12 06:16:41|INFO |Loaded 248762/342049 sequences (ignored 26852)
+2021-03-12 06:16:41|INFO |Matcher compaction ratios: direct: 96.66%, linear1: 91.94%, linear2: 93.22%, polynomial: 93.32%, delta: 91.9%
+2021-03-12 06:16:41|INFO |Mining programs for OEIS sequences
+2021-03-12 06:16:42 URL:https://oeis.org/A172331/b172331.txt [8723/8723] -> "/home/jamie/.loda/oeis/b/172/b172331.txt" [1]
+2021-03-12 06:17:56 URL:https://oeis.org/A283896/b283896.txt [19994/19994] -> "/home/jamie/.loda/oeis/b/283/b283896.txt" [1]
+2021-03-12 06:17:56 URL:https://oeis.org/A283897/b283897.txt [2723/2723] -> "/home/jamie/.loda/oeis/b/283/b283897.txt" [1]
+2021-03-12 06:17:57 URL:https://oeis.org/A059532/b059532.txt [18630/18630] -> "/home/jamie/.loda/oeis/b/059/b059532.txt" [1]
+2021-03-12 06:17:57 URL:https://oeis.org/A059544/b059544.txt [19903/19903] -> "/home/jamie/.loda/oeis/b/059/b059544.txt" [1]
+2021-03-12 06:18:43|INFO |Generated 1814 programs
+2021-03-12 06:18:47 URL:https://oeis.org/A297043/b297043.txt [68895/68895] -> "/home/jamie/.loda/oeis/b/297/b297043.txt" [1]
+2021-03-12 06:23:06|INFO |Generated 2364 programs
+2021-03-12 06:23:08 URL:https://oeis.org/A121827/b121827.txt [8705/8705] -> "/home/jamie/.loda/oeis/b/121/b121827.txt" [1]
+2021-03-12 06:23:21 URL:https://oeis.org/A177853/b177853.txt [12432/12432] -> "/home/jamie/.loda/oeis/b/177/b177853.txt" [1]
+2021-03-12 06:23:23 URL:https://oeis.org/A007095/b007095.txt [101522/101522] -> "/home/jamie/.loda/oeis/b/007/b007095.txt" [1]
+2021-03-12 06:23:24 URL:https://oeis.org/A181319/b181319.txt [251622/251622] -> "/home/jamie/.loda/oeis/b/181/b181319.txt" [1]
+2021-03-12 06:24:11 URL:https://oeis.org/A046039/b046039.txt [698170/698170] -> "/home/jamie/.loda/oeis/b/046/b046039.txt" [1]
+2021-03-12 06:24:12 URL:https://oeis.org/A279487/b279487.txt [1192096/1192096] -> "/home/jamie/.loda/oeis/b/279/b279487.txt" [1]
+2021-03-12 06:24:54 URL:https://oeis.org/A282113/b282113.txt [111843/111843] -> "/home/jamie/.loda/oeis/b/282/b282113.txt" [1]
+2021-03-12 06:25:07|INFO |Generated 3200 programs
+2021-03-12 06:25:32 URL:https://oeis.org/A066344/b066344.txt [8123/8123] -> "/home/jamie/.loda/oeis/b/066/b066344.txt" [1]
+2021-03-12 06:27:07|INFO |Generated 2493 programs
+2021-03-12 06:27:12 URL:https://oeis.org/A008837/b008837.txt [11925/11925] -> "/home/jamie/.loda/oeis/b/008/b008837.txt" [1]
+2021-03-12 06:27:17|ALERT|First program for A008837: a(n) = p*(p-1)/2 for p = prime(n). Terms: 1,3,10,21,55,78,136,171,253,406,465,666,820,903,1081,1378,1711,1830,2211,2485
+2021-03-12 06:27:17 URL:https://oeis.org/A036689/b036689.txt [153951/153951] -> "/home/jamie/.loda/oeis/b/036/b036689.txt" [1]
+2021-03-12 06:27:19|ALERT|First program for A036689: Product of a prime and the previous number. Terms: 2,6,20,42,110,156,272,342,506,812,930,1332,1640,1806,2162,2756,3422,3660,4422,4970
+2021-03-12 06:27:20 URL:https://oeis.org/A179545/b179545.txt [156433/156433] -> "/home/jamie/.loda/oeis/b/179/b179545.txt" [1]
+2021-03-12 06:27:22|ALERT|First program for A179545: The sum of the elements within a jump in a Sieve of Eratosthenes table. Terms: 3,9,30,63,165,234,408,513,759,1218,1395,1998,2460,2709,3243,4134,5133,5490,6633,7455
+2021-03-12 06:27:22 URL:https://oeis.org/A306190/b306190.txt [154062/154062] -> "/home/jamie/.loda/oeis/b/306/b306190.txt" [1]
+2021-03-12 06:27:24|ALERT|First program for A306190: a(n) = p^2 - p - 1 where p = prime(n), the n-th prime. Terms: 1,5,19,41,109,155,271,341,505,811,929,1331,1639,1805,2161,2755,3421,3659,4421,4969
+2021-03-12 06:27:25 URL:https://oeis.org/A035100/b035100.txt [6796/6796] -> "/home/jamie/.loda/oeis/b/035/b035100.txt" [1]
+2021-03-12 06:27:27|ALERT|First program for A035100: Number of bits in binary expansion of n-th prime. Terms: 2,2,3,3,4,4,5,5,5,5,5,6,6,6,6,6,6,6,7,7
+2021-03-12 06:27:27 URL:https://oeis.org/A098388/b098388.txt [78722/78722] -> "/home/jamie/.loda/oeis/b/098/b098388.txt" [1]
+2021-03-12 06:27:29|ALERT|First program for A098388: a(n) = floor(log_2(prime(n))). Terms: 1,1,2,2,3,3,4,4,4,4,4,5,5,5,5,5,5,5,6,6
+2021-03-12 06:27:29 URL:https://oeis.org/A061716/b061716.txt [14800/14800] -> "/home/jamie/.loda/oeis/b/061/b061716.txt" [1]
+2021-03-12 06:27:31|ALERT|First program for A061716: Binary order of n-th prime. Terms: 1,2,3,3,4,4,5,5,5,5,5,6,6,6,6,6,6,6,7,7
+2021-03-12 06:32:29|INFO |Generated 2628 programs
+2021-03-12 06:33:51 URL:https://oeis.org/A105395/b105395.txt [5893/5893] -> "/home/jamie/.loda/oeis/b/105/b105395.txt" [1]
+2021-03-12 06:33:51|ALERT|First program for A105395: A simple "Fractal Jump Sequence" (FJS). Terms: 1,1,1,7,1,1,7,1,1,7,1,1,7,1,1,7,1,1,7,1
+2021-03-12 06:34:30|INFO |Generated 3340 programs
+2021-03-12 06:34:38 URL:https://oeis.org/A001956/b001956.txt [106313/106313] -> "/home/jamie/.loda/oeis/b/001/b001956.txt" [1]
+2021-03-12 06:34:42 URL:https://oeis.org/A031368/b031368.txt [113384/113384] -> "/home/jamie/.loda/oeis/b/031/b031368.txt" [1]
+2021-03-12 06:34:48|ALERT|First program for A031368: a(n) = prime(2n-1). Terms: 2,5,11,17,23,31,41,47,59,67,73,83,97,103,109,127,137,149,157,167
+2021-03-12 06:34:49 URL:https://oeis.org/A077131/b077131.txt [386/386] -> "/home/jamie/.loda/oeis/b/077/b077131.txt" [1]
+2021-03-12 06:34:49|ALERT|First program for A077131: Sum of odd-indexed primes. Terms: 2,7,18,35,58,89,130,177,236,303,376,459,556,659,768,895,1032,1181,1338,1505
+2021-03-12 06:34:52 URL:https://oeis.org/A095116/b095116.txt [108798/108798] -> "/home/jamie/.loda/oeis/b/095/b095116.txt" [1]
+2021-03-12 06:34:53 URL:https://oeis.org/A014692/b014692.txt [107288/107288] -> "/home/jamie/.loda/oeis/b/014/b014692.txt" [1]
+2021-03-12 06:34:53 URL:https://oeis.org/A065890/b065890.txt [8661/8661] -> "/home/jamie/.loda/oeis/b/065/b065890.txt" [1]
+2021-03-12 06:34:54 URL:https://oeis.org/A239636/b239636.txt [112357/112357] -> "/home/jamie/.loda/oeis/b/239/b239636.txt" [1]
+2021-03-12 06:34:55 URL:https://oeis.org/A014688/b014688.txt [108799/108799] -> "/home/jamie/.loda/oeis/b/014/b014688.txt" [1]
+2021-03-12 06:34:56 URL:https://oeis.org/A031392/b031392.txt [9607/9607] -> "/home/jamie/.loda/oeis/b/031/b031392.txt" [1]
+2021-03-12 06:34:57|ALERT|First program for A014688: a(n) = n-th prime + n. Terms: 3,5,8,11,16,19,24,27,32,39,42,49,54,57,62,69,76,79,86,91
+2021-03-12 06:34:59|ALERT|First program for A095116: a(n) = prime(n) + n - 1. Terms: 2,4,7,10,15,18,23,26,31,38,41,48,53,56,61,68,75,78,85,90
+2021-03-12 06:35:00 URL:https://oeis.org/A129726/b129726.txt [8740/8740] -> "/home/jamie/.loda/oeis/b/129/b129726.txt" [1]
+2021-03-12 06:35:02|ALERT|First program for A129726: a(n) = a(n-1) + prime(n) - prime(n-1) + 2. Terms: 2,5,9,13,19,23,29,33,39,47,51,59,65,69,75,83,91,95,103,109
+2021-03-12 06:35:02 URL:https://oeis.org/A040976/b040976.txt [107874/107874] -> "/home/jamie/.loda/oeis/b/040/b040976.txt" [1]
+2021-03-12 06:35:03 URL:https://oeis.org/A076368/b076368.txt [36049/36049] -> "/home/jamie/.loda/oeis/b/076/b076368.txt" [1]
+2021-03-12 06:35:05|ALERT|First program for A076368: a(1) = 1; for n > 1, a(n) = prime(n) - prime(n-1) + 1. Terms: 1,2,3,3,5,3,5,3,5,7,3,7,5,3,5,7,7,3,7,5
+2021-03-12 06:35:06 URL:https://oeis.org/A176628/b176628.txt [8723/8723] -> "/home/jamie/.loda/oeis/b/176/b176628.txt" [1]
+2021-03-12 06:35:07 URL:https://oeis.org/A065091/b065091.txt [107958/107958] -> "/home/jamie/.loda/oeis/b/065/b065091.txt" [1]
+2021-03-12 06:35:08 URL:https://oeis.org/A137489/b137489.txt [12466/12466] -> "/home/jamie/.loda/oeis/b/137/b137489.txt" [1]
+2021-03-12 06:35:08 URL:https://oeis.org/A175744/b175744.txt [13612/13612] -> "/home/jamie/.loda/oeis/b/175/b175744.txt" [1]
+2021-03-12 06:35:09 URL:https://oeis.org/A175747/b175747.txt [14278/14278] -> "/home/jamie/.loda/oeis/b/175/b175747.txt" [1]
+2021-03-12 06:35:11|ALERT|First program for A040976: a(n) = prime(n) - 2. Terms: 0,1,3,5,9,11,15,17,21,27,29,35,39,41,45,51,57,59,65,69
+2021-03-12 06:35:12 URL:https://oeis.org/A014148/b014148.txt [172344/172344] -> "/home/jamie/.loda/oeis/b/014/b014148.txt" [1]
+2021-03-12 06:35:13 URL:https://oeis.org/A031385/b031385.txt [9535/9535] -> "/home/jamie/.loda/oeis/b/031/b031385.txt" [1]
+2021-03-12 06:35:14 URL:https://oeis.org/A031377/b031377.txt [9416/9416] -> "/home/jamie/.loda/oeis/b/031/b031377.txt" [1]
+2021-03-12 06:35:14 URL:https://oeis.org/A060822/b060822.txt [13041/13041] -> "/home/jamie/.loda/oeis/b/060/b060822.txt" [1]
+2021-03-12 06:35:16|ALERT|First program for A060822: a(n) = prime(n) + n^3 + n^2 + 4n - 1. Terms: 7,22,52,102,180,288,436,626,868,1168,1526,1956,2458,3038,3706,4468,5328,6288,7362,8550
+2021-03-12 06:36:33|INFO |Generated 2724 programs
+2021-03-12 06:37:03 URL:https://oeis.org/A087471/b087471.txt [5893/5893] -> "/home/jamie/.loda/oeis/b/087/b087471.txt" [1]
+2021-03-12 06:37:30 URL:https://oeis.org/A169718/b169718.txt [154477/154477] -> "/home/jamie/.loda/oeis/b/169/b169718.txt" [1]
+2021-03-12 06:37:46 URL:https://oeis.org/A169114/b169114.txt [306823/306823] -> "/home/jamie/.loda/oeis/b/169/b169114.txt" [1]
+2021-03-12 06:38:33|INFO |Generated 2726 programs
+2021-03-12 06:38:44 URL:https://oeis.org/A044836/b044836.txt [123305/123305] -> "/home/jamie/.loda/oeis/b/044/b044836.txt" [1]
+2021-03-12 06:38:55 URL:https://oeis.org/A258834/b258834.txt [105648/105648] -> "/home/jamie/.loda/oeis/b/258/b258834.txt" [1]
+2021-03-12 06:39:29 URL:https://oeis.org/A030514/b030514.txt [18990/18990] -> "/home/jamie/.loda/oeis/b/030/b030514.txt" [1]
+2021-03-12 06:39:30|ALERT|First program for A030514: a(n) = prime(n)^4. Terms: 16,81,625,2401,14641,28561,83521,130321,279841,707281,923521,1874161,2825761,3418801,4879681,7890481,12117361,13845841,20151121,25411681
+2021-03-12 06:39:31 URL:https://oeis.org/A153482/b153482.txt [18989/18989] -> "/home/jamie/.loda/oeis/b/153/b153482.txt" [1]
+2021-03-12 06:39:33|ALERT|First program for A153482: a(n) = prime(n)^4 - 8. Terms: 8,73,617,2393,14633,28553,83513,130313,279833,707273,923513,1874153,2825753,3418793,4879673,7890473,12117353,13845833,20151113,25411673
+2021-03-12 06:39:33 URL:https://oeis.org/A172191/b172191.txt [19244/19244] -> "/home/jamie/.loda/oeis/b/172/b172191.txt" [1]
+2021-03-12 06:39:35|ALERT|First program for A172191: a(n) = 2*prime(n)^4. Terms: 32,162,1250,4802,29282,57122,167042,260642,559682,1414562,1847042,3748322,5651522,6837602,9759362,15780962,24234722,27691682,40302242,50823362
+2021-03-12 06:39:36 URL:https://oeis.org/A001248/b001248.txt [154028/154028] -> "/home/jamie/.loda/oeis/b/001/b001248.txt" [1]
+2021-03-12 06:39:38|ALERT|First program for A001248: Squares of primes. Terms: 4,9,25,49,121,169,289,361,529,841,961,1369,1681,1849,2209,2809,3481,3721,4489,5041
+2021-03-12 06:39:38 URL:https://oeis.org/A049001/b049001.txt [12171/12171] -> "/home/jamie/.loda/oeis/b/049/b049001.txt" [1]
+2021-03-12 06:39:40|ALERT|First program for A049001: a(n) = prime(n)^2 - 2. Terms: 2,7,23,47,119,167,287,359,527,839,959,1367,1679,1847,2207,2807,3479,3719,4487,5039
+2021-03-12 06:39:40 URL:https://oeis.org/A061725/b061725.txt [12177/12177] -> "/home/jamie/.loda/oeis/b/061/b061725.txt" [1]
+2021-03-12 06:39:42|ALERT|First program for A061725: p^2 + 2 where p is a prime. Terms: 6,11,27,51,123,171,291,363,531,843,963,1371,1683,1851,2211,2811,3483,3723,4491,5043
+2021-03-12 06:39:42 URL:https://oeis.org/A066872/b066872.txt [12176/12176] -> "/home/jamie/.loda/oeis/b/066/b066872.txt" [1]
+2021-03-12 06:39:44|ALERT|First program for A066872: p^2 + 1 as p runs through the primes. Terms: 5,10,26,50,122,170,290,362,530,842,962,1370,1682,1850,2210,2810,3482,3722,4490,5042
+2021-03-12 06:39:45 URL:https://oeis.org/A069262/b069262.txt [12819/12819] -> "/home/jamie/.loda/oeis/b/069/b069262.txt" [1]
+2021-03-12 06:39:46|ALERT|First program for A069262: a(n) = 4*prime(n)^2. Terms: 16,36,100,196,484,676,1156,1444,2116,3364,3844,5476,6724,7396,8836,11236,13924,14884,17956,20164
+2021-03-12 06:39:52 URL:https://oeis.org/A079704/b079704.txt [12448/12448] -> "/home/jamie/.loda/oeis/b/079/b079704.txt" [1]
+2021-03-12 06:39:54|ALERT|First program for A079704: 2p^2 where p runs through the primes. Terms: 8,18,50,98,242,338,578,722,1058,1682,1922,2738,3362,3698,4418,5618,6962,7442,8978,10082
+2021-03-12 06:39:54 URL:https://oeis.org/A079705/b079705.txt [12680/12680] -> "/home/jamie/.loda/oeis/b/079/b079705.txt" [1]
+2021-03-12 06:39:56|ALERT|First program for A079705: 3p^2 where p runs through the primes. Terms: 12,27,75,147,363,507,867,1083,1587,2523,2883,4107,5043,5547,6627,8427,10443,11163,13467,15123
+2021-03-12 06:39:57 URL:https://oeis.org/A084920/b084920.txt [153951/153951] -> "/home/jamie/.loda/oeis/b/084/b084920.txt" [1]
+2021-03-12 06:39:58|ALERT|First program for A084920: a(n) = (prime(n)-1)*(prime(n)+1). Terms: 3,8,24,48,120,168,288,360,528,840,960,1368,1680,1848,2208,2808,3480,3720,4488,5040
+2021-03-12 06:39:59 URL:https://oeis.org/A138691/b138691.txt [12176/12176] -> "/home/jamie/.loda/oeis/b/138/b138691.txt" [1]
+2021-03-12 06:40:01|ALERT|First program for A138691: Numbers of the form 68+p^2 (where p is a prime). Terms: 72,77,93,117,189,237,357,429,597,909,1029,1437,1749,1917,2277,2877,3549,3789,4557,5109
+2021-03-12 06:40:01 URL:https://oeis.org/A153480/b153480.txt [12460/12460] -> "/home/jamie/.loda/oeis/b/153/b153480.txt" [1]
+2021-03-12 06:40:03|ALERT|First program for A153480: a(n) = 2*prime(n)^2 - 4. Terms: 4,14,46,94,238,334,574,718,1054,1678,1918,2734,3358,3694,4414,5614,6958,7438,8974,10078
+2021-03-12 06:40:04 URL:https://oeis.org/A179262/b179262.txt [157944/157944] -> "/home/jamie/.loda/oeis/b/179/b179262.txt" [1]
+2021-03-12 06:40:06|ALERT|First program for A179262: a(n) = 2*prime(n)^2 - 1. Terms: 7,17,49,97,241,337,577,721,1057,1681,1921,2737,3361,3697,4417,5617,6961,7441,8977,10081
+2021-03-12 06:40:09 URL:https://oeis.org/A182174/b182174.txt [153950/153950] -> "/home/jamie/.loda/oeis/b/182/b182174.txt" [1]
+2021-03-12 06:40:10 URL:https://oeis.org/A110494/b110494.txt [151611/151611] -> "/home/jamie/.loda/oeis/b/110/b110494.txt" [1]
+2021-03-12 06:40:12|ALERT|First program for A110494: Least k such that prime(n)^2 divides binomial(2k,k). Terms: 3,5,13,25,61,85,145,181,265,421,481,685,841,925,1105,1405,1741,1861,2245,2521
+2021-03-12 06:40:13 URL:https://oeis.org/A182200/b182200.txt [12173/12173] -> "/home/jamie/.loda/oeis/b/182/b182200.txt" [1]
+2021-03-12 06:40:14 URL:https://oeis.org/A166010/b166010.txt [153951/153951] -> "/home/jamie/.loda/oeis/b/166/b166010.txt" [1]
+2021-03-12 06:40:16|ALERT|First program for A166010: a(n) = prime(n)^2-4. Terms: 0,5,21,45,117,165,285,357,525,837,957,1365,1677,1845,2205,2805,3477,3717,4485,5037
+2021-03-12 06:40:18|ALERT|First program for A182200: a(n) = prime(n)^2-3. Terms: 1,6,22,46,118,166,286,358,526,838,958,1366,1678,1846,2206,2806,3478,3718,4486,5038
+2021-03-12 06:40:19 URL:https://oeis.org/A122102/b122102.txt [20777/20777] -> "/home/jamie/.loda/oeis/b/122/b122102.txt" [1]
+2021-03-12 06:40:33|INFO |Generated 3458 programs
+2021-03-12 06:40:57 URL:https://oeis.org/A015582/b015582.txt [12995/12995] -> "/home/jamie/.loda/oeis/b/015/b015582.txt" [1]
+2021-03-12 06:41:00 URL:https://oeis.org/A102487/b102487.txt [102146/102146] -> "/home/jamie/.loda/oeis/b/102/b102487.txt" [1]
+2021-03-12 06:42:18 URL:https://oeis.org/A329624/b329624.txt [71667/71667] -> "/home/jamie/.loda/oeis/b/329/b329624.txt" [1]
+2021-03-12 06:42:34|INFO |Generated 3510 programs
+2021-03-12 06:42:34 URL:https://oeis.org/A092929/b092929.txt [416/416] -> "/home/jamie/.loda/oeis/b/092/b092929.txt" [1]
+2021-03-12 06:42:36|ALERT|First program for A092929: n-th partial arithmetic mean is equal to the n-th noncomposite number or to prime(n-1) for n>1. Terms: 1,3,5,11,15,31,25,45,35,59,89,53,109,93,71,107,149,161,97,181
+2021-03-12 06:42:37 URL:https://oeis.org/A164931/b164931.txt [144119/144119] -> "/home/jamie/.loda/oeis/b/164/b164931.txt" [1]
+2021-03-12 06:42:43 URL:https://oeis.org/A025742/b025742.txt [133834/133834] -> "/home/jamie/.loda/oeis/b/025/b025742.txt" [1]
+2021-03-12 06:43:09 URL:https://oeis.org/A007957/b007957.txt [98564/98564] -> "/home/jamie/.loda/oeis/b/007/b007957.txt" [1]
+2021-03-12 06:44:15 URL:https://oeis.org/A059542/b059542.txt [18444/18444] -> "/home/jamie/.loda/oeis/b/059/b059542.txt" [1]
+2021-03-12 06:44:16 URL:https://oeis.org/A210436/b210436.txt [7770/7770] -> "/home/jamie/.loda/oeis/b/210/b210436.txt" [1]
+2021-03-12 06:44:38|INFO |Generated 3260 programs
+2021-03-12 06:46:41|INFO |Generated 2952 programs
+2021-03-12 06:48:06 URL:https://oeis.org/A005097/b005097.txt [8546/8546] -> "/home/jamie/.loda/oeis/b/005/b005097.txt" [1]
+2021-03-12 06:48:08|ALERT|First program for A005097: (Odd primes - 1)/2. Terms: 1,2,3,5,6,8,9,11,14,15,18,20,21,23,26,29,30,33,35,36
+2021-03-12 06:48:08 URL:https://oeis.org/A006254/b006254.txt [8549/8549] -> "/home/jamie/.loda/oeis/b/006/b006254.txt" [1]
+2021-03-12 06:48:10|ALERT|First program for A006254: Numbers k such that 2k-1 is prime. Terms: 2,3,4,6,7,9,10,12,15,16,19,21,22,24,27,30,31,34,36,37
+2021-03-12 06:48:12|ALERT|First program for A065091: Odd primes. Terms: 3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73
+2021-03-12 06:48:12 URL:https://oeis.org/A067076/b067076.txt [8542/8542] -> "/home/jamie/.loda/oeis/b/067/b067076.txt" [1]
+2021-03-12 06:48:14|ALERT|First program for A067076: Numbers k such that 2*k + 3 is a prime. Terms: 0,1,2,4,5,7,8,10,13,14,17,19,20,22,25,28,29,32,34,35
+2021-03-12 06:48:14 URL:https://oeis.org/A089192/b089192.txt [8548/8548] -> "/home/jamie/.loda/oeis/b/089/b089192.txt" [1]
+2021-03-12 06:48:16|ALERT|First program for A089192: Numbers n such that 2n - 7 is a prime. Terms: 5,6,7,9,10,12,13,15,18,19,22,24,25,27,30,33,34,37,39,40
+2021-03-12 06:48:17 URL:https://oeis.org/A089253/b089253.txt [8545/8545] -> "/home/jamie/.loda/oeis/b/089/b089253.txt" [1]
+2021-03-12 06:48:18|ALERT|First program for A089253: Numbers n such that 2n - 5 is a prime. Terms: 4,5,6,8,9,11,12,14,17,18,21,23,24,26,29,32,33,36,38,39
+2021-03-12 06:48:19 URL:https://oeis.org/A097069/b097069.txt [8551/8551] -> "/home/jamie/.loda/oeis/b/097/b097069.txt" [1]
+2021-03-12 06:48:21|ALERT|First program for A097069: Positive integers n such that 2n - 9 is prime. Terms: 6,7,8,10,11,13,14,16,19,20,23,25,26,28,31,34,35,38,40,41
+2021-03-12 06:48:21 URL:https://oeis.org/A097338/b097338.txt [8550/8550] -> "/home/jamie/.loda/oeis/b/097/b097338.txt" [1]
+2021-03-12 06:48:23|ALERT|First program for A097338: Positive integers n such that 2n-11 is prime. Terms: 7,8,9,11,12,14,15,17,20,21,24,26,27,29,32,35,36,39,41,42
+2021-03-12 06:48:23 URL:https://oeis.org/A097363/b097363.txt [8552/8552] -> "/home/jamie/.loda/oeis/b/097/b097363.txt" [1]
+2021-03-12 06:48:25|ALERT|First program for A097363: Positive integers n such that 2n-13 is prime. Terms: 8,9,10,12,13,15,16,18,21,22,25,27,28,30,33,36,37,40,42,43
+2021-03-12 06:48:25 URL:https://oeis.org/A097480/b097480.txt [8553/8553] -> "/home/jamie/.loda/oeis/b/097/b097480.txt" [1]
+2021-03-12 06:48:27|ALERT|First program for A097480: Positive integers n such that 2n-15 is prime. Terms: 9,10,11,13,14,16,17,19,22,23,26,28,29,31,34,37,38,41,43,44
+2021-03-12 06:48:28 URL:https://oeis.org/A097932/b097932.txt [8632/8632] -> "/home/jamie/.loda/oeis/b/097/b097932.txt" [1]
+2021-03-12 06:48:29|ALERT|First program for A097932: Positive integers n such that 2n-19 is prime. Terms: 11,12,13,15,16,18,19,21,24,25,28,30,31,33,36,39,40,43,45,46
+2021-03-12 06:48:30 URL:https://oeis.org/A098605/b098605.txt [8554/8554] -> "/home/jamie/.loda/oeis/b/098/b098605.txt" [1]
+2021-03-12 06:48:32|ALERT|First program for A098605: Positive integers n such that 2n - 17 is prime. Terms: 10,11,12,14,15,17,18,20,23,24,27,29,30,32,35,38,39,42,44,45
+2021-03-12 06:48:33 URL:https://oeis.org/A177018/b177018.txt [105699/105699] -> "/home/jamie/.loda/oeis/b/177/b177018.txt" [1]
+2021-03-12 06:48:34 URL:https://oeis.org/A098090/b098090.txt [106286/106286] -> "/home/jamie/.loda/oeis/b/098/b098090.txt" [1]
+2021-03-12 06:48:36|ALERT|First program for A098090: Numbers k such that 2k-3 is prime. Terms: 3,4,5,7,8,10,11,13,16,17,20,22,23,25,28,31,32,35,37,38
+2021-03-12 06:48:36 URL:https://oeis.org/A298252/b298252.txt [52475/52475] -> "/home/jamie/.loda/oeis/b/298/b298252.txt" [1]
+2021-03-12 06:48:37 URL:https://oeis.org/A100820/b100820.txt [13013/13013] -> "/home/jamie/.loda/oeis/b/100/b100820.txt" [1]
+2021-03-12 06:48:42|ALERT|First program for A100820: Number of odd numbers between prime(n) and prime(n+1). Terms: 0,0,0,1,0,1,0,1,2,0,2,1,0,1,2,2,0,2,1,0
+2021-03-12 06:48:43 URL:https://oeis.org/A179893/b179893.txt [8886/8886] -> "/home/jamie/.loda/oeis/b/179/b179893.txt" [1]
+2021-03-12 06:48:43|INFO |Generated 2509 programs
+2021-03-12 06:48:44 URL:https://oeis.org/A001747/b001747.txt [9115/9115] -> "/home/jamie/.loda/oeis/b/001/b001747.txt" [1]
+2021-03-12 06:48:49|ALERT|First program for A001747: 2 together with primes multiplied by 2. Terms: 2,4,6,10,14,22,26,34,38,46,58,62,74,82,86,94,106,118,122,134
+2021-03-12 06:48:50 URL:https://oeis.org/A008578/b008578.txt [107871/107871] -> "/home/jamie/.loda/oeis/b/008/b008578.txt" [1]
+2021-03-12 06:48:55|ALERT|First program for A008578: Prime numbers at the beginning of the 20th century (today 1 is no longer regarded as a prime). Terms: 1,2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67
+2021-03-12 06:48:56 URL:https://oeis.org/A076274/b076274.txt [9107/9107] -> "/home/jamie/.loda/oeis/b/076/b076274.txt" [1]
+2021-03-12 06:49:01|ALERT|First program for A076274: 2p-1 where p is 1 or a prime. Terms: 1,3,5,9,13,21,25,33,37,45,57,61,73,81,85,93,105,117,121,133
+2021-03-12 06:49:02 URL:https://oeis.org/A112773/b112773.txt [9339/9339] -> "/home/jamie/.loda/oeis/b/112/b112773.txt" [1]
+2021-03-12 06:49:07|ALERT|First program for A112773: 3 together with primes multiplied by 3. Terms: 3,6,9,15,21,33,39,51,57,69,87,93,111,123,129,141,159,177,183,201
+2021-03-12 06:49:08 URL:https://oeis.org/A324050/b324050.txt [107847/107847] -> "/home/jamie/.loda/oeis/b/324/b324050.txt" [1]
+2021-03-12 06:49:12 URL:https://oeis.org/A111333/b111333.txt [106386/106386] -> "/home/jamie/.loda/oeis/b/111/b111333.txt" [1]
+2021-03-12 06:49:12 URL:https://oeis.org/A130290/b130290.txt [8537/8537] -> "/home/jamie/.loda/oeis/b/130/b130290.txt" [1]
+2021-03-12 06:49:19|ALERT|First program for A130290: Number of nonzero quadratic residues modulo the n-th prime. Terms: 1,1,2,3,5,6,8,9,11,14,15,18,20,21,23,26,29,30,33,35
+2021-03-12 06:49:19 URL:https://oeis.org/A130291/b130291.txt [8540/8540] -> "/home/jamie/.loda/oeis/b/130/b130291.txt" [1]
+2021-03-12 06:49:26|ALERT|First program for A130291: Number of quadratic residues (including 0) modulo the n-th prime. Terms: 2,2,3,4,6,7,9,10,12,15,16,19,21,22,24,27,30,31,34,36
+2021-03-12 06:49:28 URL:https://oeis.org/A100484/b100484.txt [112980/112980] -> "/home/jamie/.loda/oeis/b/100/b100484.txt" [1]
+2021-03-12 06:49:33|ALERT|First program for A100484: Even semiprimes. Terms: 4,6,10,14,22,26,34,38,46,58,62,74,82,86,94,106,118,122,134,142
+2021-03-12 06:49:34 URL:https://oeis.org/A089241/b089241.txt [53113/53113] -> "/home/jamie/.loda/oeis/b/089/b089241.txt" [1]
+2021-03-12 06:49:39|ALERT|First program for A089241: Even numbers k such that k/2 - 1 is prime. Terms: 6,8,12,16,24,28,36,40,48,60,64,76,84,88,96,108,120,124,136,144
+2021-03-12 06:49:39 URL:https://oeis.org/A113935/b113935.txt [8698/8698] -> "/home/jamie/.loda/oeis/b/113/b113935.txt" [1]
+2021-03-12 06:49:44|ALERT|First program for A113935: a(n) = prime(n) + 3. Terms: 5,6,8,10,14,16,20,22,26,32,34,40,44,46,50,56,62,64,70,74
+2021-03-12 06:49:45 URL:https://oeis.org/A175221/b175221.txt [107888/107888] -> "/home/jamie/.loda/oeis/b/175/b175221.txt" [1]
+2021-03-12 06:49:51|ALERT|First program for A175221: a(n) = prime(n) + 4. Terms: 6,7,9,11,15,17,21,23,27,33,35,41,45,47,51,57,63,65,71,75
+2021-03-12 06:49:51 URL:https://oeis.org/A175222/b175222.txt [8699/8699] -> "/home/jamie/.loda/oeis/b/175/b175222.txt" [1]
+2021-03-12 06:49:56|ALERT|First program for A175222: a(n) = prime(n) + 5. Terms: 7,8,10,12,16,18,22,24,28,34,36,42,46,48,52,58,64,66,72,76
+2021-03-12 06:49:57 URL:https://oeis.org/A139049/b139049.txt [107889/107889] -> "/home/jamie/.loda/oeis/b/139/b139049.txt" [1]
+2021-03-12 06:50:02|ALERT|First program for A139049: a(n) = prime(n) + 6. Terms: 8,9,11,13,17,19,23,25,29,35,37,43,47,49,53,59,65,67,73,77
+2021-03-12 06:50:03 URL:https://oeis.org/A175223/b175223.txt [8700/8700] -> "/home/jamie/.loda/oeis/b/175/b175223.txt" [1]
+2021-03-12 06:50:08|ALERT|First program for A175223: a(n) = prime(n) + 7. Terms: 9,10,12,14,18,20,24,26,30,36,38,44,48,50,54,60,66,68,74,78
+2021-03-12 06:50:09 URL:https://oeis.org/A175224/b175224.txt [107891/107891] -> "/home/jamie/.loda/oeis/b/175/b175224.txt" [1]
+2021-03-12 06:50:14|ALERT|First program for A175224: a(n) = prime(n) + 8. Terms: 10,11,13,15,19,21,25,27,31,37,39,45,49,51,55,61,67,69,75,79
+2021-03-12 06:50:15 URL:https://oeis.org/A140353/b140353.txt [107893/107893] -> "/home/jamie/.loda/oeis/b/140/b140353.txt" [1]
+2021-03-12 06:50:20|ALERT|First program for A140353: a(n) = prime(n) + 9. Terms: 11,12,14,16,20,22,26,28,32,38,40,46,50,52,56,62,68,70,76,80
+2021-03-12 06:50:21 URL:https://oeis.org/A175225/b175225.txt [107893/107893] -> "/home/jamie/.loda/oeis/b/175/b175225.txt" [1]
+2021-03-12 06:50:26|ALERT|First program for A175225: a(n) = prime(n) + 10. Terms: 12,13,15,17,21,23,27,29,33,39,41,47,51,53,57,63,69,71,77,81
+2021-03-12 06:50:31|ALERT|First program for A175747: Numbers with 38 divisors. Terms: 786432,1310720,1835008,2883584,3407872,4456448,4980736,6029312,7602176,8126464,9699328,10747904,11272192,12320768,13893632,15466496,15990784,17563648,18612224,19136512
+2021-03-12 06:50:32 URL:https://oeis.org/A175753/b175753.txt [15482/15482] -> "/home/jamie/.loda/oeis/b/175/b175753.txt" [1]
+2021-03-12 06:50:37|ALERT|First program for A175753: Numbers with 46 divisors. Terms: 12582912,20971520,29360128,46137344,54525952,71303168,79691776,96468992,121634816,130023424,155189248,171966464,180355072,197132288,222298112,247463936,255852544,281018368,297795584,306184192
+2021-03-12 06:50:44|ALERT|First program for A089038: Nonnegative numbers k such that 2k+5 is prime. Terms: 0,1,3,4,6,7,9,12,13,16,18,19,21,24,27,28,31,33,34,37
+2021-03-12 06:50:52|ALERT|First program for A172367: Numbers n > 0 such that n+4 is a prime. Terms: 1,3,7,9,13,15,19,25,27,33,37,39,43,49,55,57,63,67,69,75
+2021-03-12 06:51:00|ALERT|First program for A173064: a(n) = prime(n) - 5. Terms: 0,2,6,8,12,14,18,24,26,32,36,38,42,48,54,56,62,66,68,74
+2021-03-12 06:51:00|INFO |Generated 484 programs
+2021-03-12 06:51:01 URL:https://oeis.org/A028334/b028334.txt [70186/70186] -> "/home/jamie/.loda/oeis/b/028/b028334.txt" [1]
+2021-03-12 06:51:07|ALERT|First program for A028334: Differences between consecutive odd primes, divided by 2. Terms: 1,1,2,1,2,1,2,3,1,3,2,1,2,3,3,1,3,2,1,3
+2021-03-12 06:51:14|ALERT|First program for A298252: Even integers n such that n-3 is prime. Terms: 6,8,10,14,16,20,22,26,32,34,40,44,46,50,56,62,64,70,74,76
+2021-03-12 06:51:16|ALERT|First program for A179893: a(n) = 3/2 * (prime(n)-1). Terms: 3,6,9,15,18,24,27,33,42,45,54,60,63,69,78,87,90,99,105,108
+2021-03-12 06:52:13 URL:https://oeis.org/A005598/b005598.txt [12062/12062] -> "/home/jamie/.loda/oeis/b/005/b005598.txt" [1]
+2021-03-12 06:52:38 URL:https://oeis.org/A135177/b135177.txt [15583/15583] -> "/home/jamie/.loda/oeis/b/135/b135177.txt" [1]
+2021-03-12 06:52:39|ALERT|First program for A135177: a(n) = p^2*(p-1), where p = prime(n). Terms: 4,18,100,294,1210,2028,4624,6498,11638,23548,28830,49284,67240,77658,101614,146068,201898,223260,296274,352870
+2021-03-12 06:52:50 URL:https://oeis.org/A043646/b043646.txt [8165/8165] -> "/home/jamie/.loda/oeis/b/043/b043646.txt" [1]
+2021-03-12 06:53:00 URL:https://oeis.org/A025702/b025702.txt [131864/131864] -> "/home/jamie/.loda/oeis/b/025/b025702.txt" [1]
+2021-03-12 06:53:05|INFO |Generated 5256 programs
+2021-03-12 06:55:05|INFO |Generated 3450 programs
+2021-03-12 06:55:37 URL:https://oeis.org/A044762/b044762.txt [9771/9771] -> "/home/jamie/.loda/oeis/b/044/b044762.txt" [1]
+2021-03-12 06:55:37 URL:https://oeis.org/A121025/b121025.txt [52492/52492] -> "/home/jamie/.loda/oeis/b/121/b121025.txt" [1]
+2021-03-12 06:57:07|INFO |Generated 3489 programs
+2021-03-12 06:57:43 URL:https://oeis.org/A000195/b000195.txt [68900/68900] -> "/home/jamie/.loda/oeis/b/000/b000195.txt" [1]
+2021-03-12 06:57:43 URL:https://oeis.org/A212445/b212445.txt [7799/7799] -> "/home/jamie/.loda/oeis/b/212/b212445.txt" [1]
+2021-03-12 06:59:09|INFO |Generated 3077 programs
+2021-03-12 06:59:48 URL:https://oeis.org/A001223/b001223.txt [844380/844380] -> "/home/jamie/.loda/oeis/b/001/b001223.txt" [1]
+2021-03-12 06:59:50|ALERT|First program for A001223: Prime gaps: differences between consecutive primes. Terms: 1,2,2,4,2,4,2,4,6,2,6,4,2,4,6,6,2,6,4,2
+2021-03-12 06:59:51 URL:https://oeis.org/A046933/b046933.txt [72601/72601] -> "/home/jamie/.loda/oeis/b/046/b046933.txt" [1]
+2021-03-12 06:59:52|ALERT|First program for A046933: Number of composites between successive primes. Terms: 0,1,1,3,1,3,1,3,5,1,5,3,1,3,5,5,1,5,3,1
+2021-03-12 07:01:10|INFO |Generated 2422 programs
+2021-03-12 07:01:58 URL:https://oeis.org/A330319/b330319.txt [160699/160699] -> "/home/jamie/.loda/oeis/b/330/b330319.txt" [1]
+2021-03-12 07:03:17|INFO |Generated 3552 programs
+2021-03-12 07:05:25|INFO |Generated 2502 programs
+2021-03-12 07:05:47 URL:https://oeis.org/A179941/b179941.txt [69020/69020] -> "/home/jamie/.loda/oeis/b/179/b179941.txt" [1]
+2021-03-12 07:07:05 URL:https://oeis.org/A108589/b108589.txt [71857/71857] -> "/home/jamie/.loda/oeis/b/108/b108589.txt" [1]
+2021-03-12 07:07:26|INFO |Generated 2972 programs
+2021-03-12 07:09:27|INFO |Generated 2725 programs
+2021-03-12 07:10:31 URL:https://oeis.org/A296613/b296613.txt [100119/100119] -> "/home/jamie/.loda/oeis/b/296/b296613.txt" [1]
+2021-03-12 07:11:29|INFO |Generated 3198 programs
+2021-03-12 07:12:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 07:12:16 URL:https://oeis.org/A038127/b038127.txt [104734/104734] -> "/home/jamie/.loda/oeis/b/038/b038127.txt" [1]
+2021-03-12 07:12:17|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 07:56:03|INFO |Generated 1197 programs
+2021-03-12 07:56:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 07:57:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 07:57:08 URL:https://oeis.org/A207481/b207481.txt [99294/99294] -> "/home/jamie/.loda/oeis/b/207/b207481.txt" [1]
+2021-03-12 07:57:33|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 07:58:02 URL:https://oeis.org/A024813/b024813.txt [8592/8592] -> "/home/jamie/.loda/oeis/b/024/b024813.txt" [1]
+2021-03-12 07:58:06|INFO |Generated 3592 programs
+2021-03-12 07:58:08|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 07:59:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:00:24|INFO |Generated 1498 programs
+2021-03-12 08:00:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:01:37|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:02:25|INFO |Generated 2301 programs
+2021-03-12 08:02:30|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:02:59 URL:https://oeis.org/A023512/b023512.txt [14730/14730] -> "/home/jamie/.loda/oeis/b/023/b023512.txt" [1]
+2021-03-12 08:03:01|ALERT|First program for A023512: Exponent of 2 in prime factorization of prime(n) + 1. Terms: 0,2,1,3,2,1,1,2,3,1,5,1,1,2,4,1,2,1,2,3
+2021-03-12 08:03:10|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:03:53|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:04:36|INFO |Generated 3005 programs
+2021-03-12 08:04:57|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:05:02 URL:https://oeis.org/A155750/b155750.txt [481/481] -> "/home/jamie/.loda/oeis/b/155/b155750.txt" [1]
+2021-03-12 08:05:04|ALERT|First program for A155750: First differences of A031215. Terms: 4,6,6,10,8,6,10,8,10,8,10,12,6,6,18,8,12,12,10,8
+2021-03-12 08:05:05 URL:https://oeis.org/A031215/b031215.txt [113430/113430] -> "/home/jamie/.loda/oeis/b/031/b031215.txt" [1]
+2021-03-12 08:05:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:05:40 URL:https://oeis.org/A001958/b001958.txt [106320/106320] -> "/home/jamie/.loda/oeis/b/001/b001958.txt" [1]
+2021-03-12 08:05:57 URL:https://oeis.org/A097012/b097012.txt [82787/82787] -> "/home/jamie/.loda/oeis/b/097/b097012.txt" [1]
+2021-03-12 08:05:57|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:06:00 URL:https://oeis.org/A185392/b185392.txt [8339/8339] -> "/home/jamie/.loda/oeis/b/185/b185392.txt" [1]
+2021-03-12 08:06:00 URL:https://oeis.org/A208327/b208327.txt [8340/8340] -> "/home/jamie/.loda/oeis/b/208/b208327.txt" [1]
+2021-03-12 08:06:14|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:06:38|INFO |Generated 4046 programs
+2021-03-12 08:07:09|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:08:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:09:17|INFO |Generated 1819 programs
+2021-03-12 08:09:35|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:09:50 URL:https://oeis.org/A182761/b182761.txt [104231/104231] -> "/home/jamie/.loda/oeis/b/182/b182761.txt" [1]
+2021-03-12 08:09:51 URL:https://oeis.org/A249115/b249115.txt [100858/100858] -> "/home/jamie/.loda/oeis/b/249/b249115.txt" [1]
+2021-03-12 08:09:52 URL:https://oeis.org/A286751/b286751.txt [102598/102598] -> "/home/jamie/.loda/oeis/b/286/b286751.txt" [1]
+2021-03-12 08:10:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 08:12:00 URL:https://oeis.org/A339825/b339825.txt [471/471] -> "/home/jamie/.loda/oeis/b/339/b339825.txt" [1]
+2021-03-12 08:15:04|ALERT|First program for A339825: Odd bisection of the infinite Fibonacci word A003849. Terms: 1,0,0,0,1,0,0,0,1,1,0,0,1,1,0,0,1,1,0,0
+2021-03-12 08:15:04|INFO |Generated 2032 programs
+2021-03-12 08:18:03|INFO |Generated 3 programs
+2021-03-12 08:20:52|INFO |Generated 2 programs
+2021-03-12 08:23:50|INFO |Generated 2 programs
+2021-03-12 08:26:51|INFO |Generated 3 programs
+2021-03-12 08:29:53|INFO |Generated 2 programs
+2021-03-12 08:32:54|INFO |Generated 2 programs
+2021-03-12 08:35:55|INFO |Generated 2 programs
+2021-03-12 08:38:54|INFO |Generated 2 programs
+2021-03-12 08:41:54|INFO |Generated 2 programs
+2021-03-12 08:44:33|INFO |Generated 2 programs
+2021-03-12 08:47:24|INFO |Generated 3 programs
+2021-03-12 08:50:23|INFO |Generated 2 programs
+2021-03-12 08:53:24|INFO |Generated 2 programs
+2021-03-12 08:56:25|INFO |Generated 2 programs
+2021-03-12 08:59:24|INFO |Generated 2 programs
+2021-03-12 09:02:24|INFO |Generated 2 programs
+2021-03-12 09:05:26|INFO |Generated 2 programs
+2021-03-12 09:08:25|INFO |Generated 2 programs
+2021-03-12 09:11:24|INFO |Generated 2 programs
+2021-03-12 09:14:25|INFO |Generated 2 programs
+2021-03-12 09:17:16|INFO |Generated 4 programs
+2021-03-12 09:20:17|INFO |Generated 3 programs
+2021-03-12 09:23:18|INFO |Generated 2 programs
+2021-03-12 09:26:18|INFO |Generated 2 programs
+2021-03-12 09:29:18|INFO |Generated 2 programs
+2021-03-12 09:32:17|INFO |Generated 2 programs
+2021-03-12 09:34:38|INFO |Generated 2 programs
+2021-03-12 09:37:36|INFO |Generated 2 programs
+2021-03-12 09:40:38|INFO |Generated 2 programs
+2021-03-12 09:43:18|INFO |Generated 2 programs
+2021-03-12 09:46:17|INFO |Generated 3 programs
+2021-03-12 09:49:15|INFO |Generated 2 programs
+2021-03-12 09:52:06|INFO |Generated 2 programs
+2021-03-12 09:54:56|INFO |Generated 2 programs
+2021-03-12 09:57:55|INFO |Generated 3 programs
+2021-03-12 10:00:56|INFO |Generated 2 programs
+2021-03-12 10:01:17|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 10:02:08|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 10:02:13 URL:https://oeis.org/A202022/b202022.txt [68898/68898] -> "/home/jamie/.loda/oeis/b/202/b202022.txt" [1]
+2021-03-12 10:02:56|INFO |Generated 2275 programs
+2021-03-12 10:02:56|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 10:03:29|ALERT|First program for A239636: Distance between the two occurrences of n-th prime in A082500. Terms: 1,1,3,5,11,13,19,21,27,37,39,49,55,57,63,73,83,85,95,101
+2021-03-12 10:03:42|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 10:04:02 URL:https://oeis.org/A031726/b031726.txt [162401/162401] -> "/home/jamie/.loda/oeis/b/031/b031726.txt" [1]
+2021-03-12 10:04:24|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 10:04:58|INFO |Generated 2957 programs
+2021-03-12 10:05:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 10:05:49 URL:https://oeis.org/A342397/b342397.txt [434/434] -> "/home/jamie/.loda/oeis/b/342/b342397.txt" [1]
+2021-03-12 10:06:07|ALERT|First program for A342397: Expansion of the o.g.f. (2*x^2 + 3*x + 2)*x/((x + 1)^2*(x - 1)^4). Terms: 0,2,7,18,35,62,98,148,210,290,385,502,637,798,980,1192,1428,1698,1995,2330
+2021-03-12 10:07:07|INFO |Generated 482 programs
+2021-03-12 10:09:16|INFO |Generated 13 programs
+2021-03-12 10:11:25|INFO |Generated 13 programs
+2021-03-12 10:13:33|INFO |Generated 15 programs
+2021-03-12 10:15:42|INFO |Generated 21 programs
+2021-03-12 10:17:45|INFO |Generated 204 programs
+2021-03-12 10:17:50|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 10:18:00 URL:https://oeis.org/A052008/b052008.txt [103080/103080] -> "/home/jamie/.loda/oeis/b/052/b052008.txt" [1]
+2021-03-12 10:18:12 URL:https://oeis.org/A038107/b038107.txt [9465/9465] -> "/home/jamie/.loda/oeis/b/038/b038107.txt" [1]
+2021-03-12 10:19:01|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 10:19:46|INFO |Generated 1796 programs
+2021-03-12 10:20:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 10:21:40|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 10:21:46|INFO |Generated 1808 programs
+2021-03-12 10:22:24|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 10:22:28 URL:https://oeis.org/A288658/b288658.txt [100473/100473] -> "/home/jamie/.loda/oeis/b/288/b288658.txt" [1]
+2021-03-12 10:22:33 URL:https://oeis.org/A297466/b297466.txt [8571/8571] -> "/home/jamie/.loda/oeis/b/297/b297466.txt" [1]
+2021-03-12 10:23:26 URL:https://oeis.org/A297784/b297784.txt [68895/68895] -> "/home/jamie/.loda/oeis/b/297/b297784.txt" [1]
+2021-03-12 10:23:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 10:23:34 URL:https://oeis.org/A175212/b175212.txt [107438/107438] -> "/home/jamie/.loda/oeis/b/175/b175212.txt" [1]
+2021-03-12 10:23:48|INFO |Generated 2280 programs
+2021-03-12 10:24:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:21:24|INFO |Generated 1382 programs
+2021-03-12 11:21:24|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:21:57|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:23:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:23:19 URL:https://oeis.org/A166370/b166370.txt [9168/9168] -> "/home/jamie/.loda/oeis/b/166/b166370.txt" [1]
+2021-03-12 11:23:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:23:24|INFO |Generated 3353 programs
+2021-03-12 11:23:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:24:46|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:25:25|INFO |Generated 2526 programs
+2021-03-12 11:25:46|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:26:06 URL:https://oeis.org/A005228/b005228.txt [132494/132494] -> "/home/jamie/.loda/oeis/b/005/b005228.txt" [1]
+2021-03-12 11:26:17 URL:https://oeis.org/A152727/b152727.txt [69088/69088] -> "/home/jamie/.loda/oeis/b/152/b152727.txt" [1]
+2021-03-12 11:30:44|INFO |Generated 474 programs
+2021-03-12 11:31:10 URL:https://oeis.org/A161187/b161187.txt [9469/9469] -> "/home/jamie/.loda/oeis/b/161/b161187.txt" [1]
+2021-03-12 11:31:54|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:32:29|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:32:47|INFO |Generated 1926 programs
+2021-03-12 11:33:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:33:08 URL:https://oeis.org/A081835/b081835.txt [18631/18631] -> "/home/jamie/.loda/oeis/b/081/b081835.txt" [1]
+2021-03-12 11:33:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:34:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:34:48|INFO |Generated 2949 programs
+2021-03-12 11:35:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:36:17|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:36:41|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:36:50|INFO |Generated 3017 programs
+2021-03-12 11:37:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 11:37:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:34:28|INFO |Generated 1879 programs
+2021-03-12 12:34:52|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:35:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:36:31|INFO |Generated 2887 programs
+2021-03-12 12:36:35|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:37:35|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:37:38 URL:https://oeis.org/A044305/b044305.txt [9742/9742] -> "/home/jamie/.loda/oeis/b/044/b044305.txt" [1]
+2021-03-12 12:37:39 URL:https://oeis.org/A055040/b055040.txt [107508/107508] -> "/home/jamie/.loda/oeis/b/055/b055040.txt" [1]
+2021-03-12 12:37:39 URL:https://oeis.org/A055048/b055048.txt [104732/104732] -> "/home/jamie/.loda/oeis/b/055/b055048.txt" [1]
+2021-03-12 12:37:41 URL:https://oeis.org/A031742/b031742.txt [164136/164136] -> "/home/jamie/.loda/oeis/b/031/b031742.txt" [1]
+2021-03-12 12:38:19|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:38:34|INFO |Generated 2311 programs
+2021-03-12 12:38:55 URL:https://oeis.org/A105760/b105760.txt [8544/8544] -> "/home/jamie/.loda/oeis/b/105/b105760.txt" [1]
+2021-03-12 12:38:56|ALERT|First program for A105760: Nonnegative numbers k such that 2k+7 is prime. Terms: 0,2,3,5,6,8,11,12,15,17,18,20,23,26,27,30,32,33,36,38
+2021-03-12 12:38:56 URL:https://oeis.org/A086304/b086304.txt [8701/8701] -> "/home/jamie/.loda/oeis/b/086/b086304.txt" [1]
+2021-03-12 12:38:57|ALERT|First program for A086304: Numbers n such that n+6 is prime. Terms: 1,5,7,11,13,17,23,25,31,35,37,41,47,53,55,61,65,67,73,77
+2021-03-12 12:38:59 URL:https://oeis.org/A153081/b153081.txt [8545/8545] -> "/home/jamie/.loda/oeis/b/153/b153081.txt" [1]
+2021-03-12 12:39:00|ALERT|First program for A153081: Nonnegative numbers n such that 2n + 13 is prime. Terms: 0,2,3,5,8,9,12,14,15,17,20,23,24,27,29,30,33,35,38,42
+2021-03-12 12:39:02 URL:https://oeis.org/A153143/b153143.txt [8549/8549] -> "/home/jamie/.loda/oeis/b/153/b153143.txt" [1]
+2021-03-12 12:39:03|ALERT|First program for A153143: Nonnegative numbers n such that 2n + 19 is prime. Terms: 0,2,5,6,9,11,12,14,17,20,21,24,26,27,30,32,35,39,41,42
+2021-03-12 12:39:04 URL:https://oeis.org/A089559/b089559.txt [8549/8549] -> "/home/jamie/.loda/oeis/b/089/b089559.txt" [1]
+2021-03-12 12:39:06|ALERT|First program for A089559: Nonnegative numbers n such that 2*n + 15 is prime. Terms: 1,2,4,7,8,11,13,14,16,19,22,23,26,28,29,32,34,37,41,43
+2021-03-12 12:39:07 URL:https://oeis.org/A173059/b173059.txt [8548/8548] -> "/home/jamie/.loda/oeis/b/173/b173059.txt" [1]
+2021-03-12 12:39:08|ALERT|First program for A173059: Nonnegative numbers n such that 2*n + 17 is prime. Terms: 0,1,3,6,7,10,12,13,15,18,21,22,25,27,28,31,33,36,40,42
+2021-03-12 12:39:09 URL:https://oeis.org/A270301/b270301.txt [116342/116342] -> "/home/jamie/.loda/oeis/b/270/b270301.txt" [1]
+2021-03-12 12:39:17|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:39:18 URL:https://oeis.org/A045344/b045344.txt [8700/8700] -> "/home/jamie/.loda/oeis/b/045/b045344.txt" [1]
+2021-03-12 12:39:20|ALERT|First program for A045344: Primes congruent to {1, 2} mod 3. Terms: 2,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73
+2021-03-12 12:39:22 URL:https://oeis.org/A156037/b156037.txt [113765/113765] -> "/home/jamie/.loda/oeis/b/156/b156037.txt" [1]
+2021-03-12 12:39:24|ALERT|First program for A156037: Largest nonprime < n-th prime. Terms: 1,1,4,6,10,12,16,18,22,28,30,36,40,42,46,52,58,60,66,70
+2021-03-12 12:39:59|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:40:35|INFO |Generated 2125 programs
+2021-03-12 12:41:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:41:07 URL:https://oeis.org/A285383/b285383.txt [68896/68896] -> "/home/jamie/.loda/oeis/b/285/b285383.txt" [1]
+2021-03-12 12:41:07|ALERT|First program for A285383: Limiting 0-word of the morphism 0 -> 11, 1 -> 01. Terms: 0,1,0,1,1,1,0,1,0,1,0,1,1,1,0,1,1,1,0,1
+2021-03-12 12:41:14 URL:https://oeis.org/A228391/b228391.txt [81449/81449] -> "/home/jamie/.loda/oeis/b/228/b228391.txt" [1]
+2021-03-12 12:41:14|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:41:36|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:42:33|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:42:37|INFO |Generated 2712 programs
+2021-03-12 12:43:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:43:55|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:44:39|INFO |Generated 2839 programs
+2021-03-12 12:44:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:45:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:46:15 URL:https://oeis.org/A327137/b327137.txt [106894/106894] -> "/home/jamie/.loda/oeis/b/327/b327137.txt" [1]
+2021-03-12 12:46:20|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:46:45|INFO |Generated 2493 programs
+2021-03-12 12:47:37|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:47:56 URL:https://oeis.org/A139819/b139819.txt [97878/97878] -> "/home/jamie/.loda/oeis/b/139/b139819.txt" [1]
+2021-03-12 12:48:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:48:49|INFO |Generated 1893 programs
+2021-03-12 12:49:31|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:50:17|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:50:31 URL:https://oeis.org/A064724/b064724.txt [18204/18204] -> "/home/jamie/.loda/oeis/b/064/b064724.txt" [1]
+2021-03-12 12:50:33 URL:https://oeis.org/A190326/b190326.txt [108438/108438] -> "/home/jamie/.loda/oeis/b/190/b190326.txt" [1]
+2021-03-12 12:50:39 URL:https://oeis.org/A297781/b297781.txt [68895/68895] -> "/home/jamie/.loda/oeis/b/297/b297781.txt" [1]
+2021-03-12 12:50:49|INFO |Generated 2481 programs
+2021-03-12 12:50:53|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:51:06 URL:https://oeis.org/A323703/b323703.txt [106905/106905] -> "/home/jamie/.loda/oeis/b/323/b323703.txt" [1]
+2021-03-12 12:51:08|ALERT|First program for A323703: Number of values of (X^3 + X) mod prime(n). Terms: 1,3,3,5,7,9,11,13,15,19,21,25,27,29,31,35,39,41,45,47
+2021-03-12 12:51:10 URL:https://oeis.org/A031718/b031718.txt [160956/160956] -> "/home/jamie/.loda/oeis/b/031/b031718.txt" [1]
+2021-03-12 12:51:22|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:52:15|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:52:53|INFO |Generated 2907 programs
+2021-03-12 12:53:09|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:54:10|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:55:21|INFO |Generated 1433 programs
+2021-03-12 12:56:04|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:57:22|INFO |Generated 1404 programs
+2021-03-12 12:57:53 URL:https://oeis.org/A065893/b065893.txt [10409/10409] -> "/home/jamie/.loda/oeis/b/065/b065893.txt" [1]
+2021-03-12 12:58:18|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:58:24 URL:https://oeis.org/A031710/b031710.txt [158708/158708] -> "/home/jamie/.loda/oeis/b/031/b031710.txt" [1]
+2021-03-12 12:58:42 URL:https://oeis.org/A292637/b292637.txt [8602/8602] -> "/home/jamie/.loda/oeis/b/292/b292637.txt" [1]
+2021-03-12 12:58:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 12:59:23|INFO |Generated 2260 programs
+2021-03-12 12:59:49|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:00:56|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:02:16|INFO |Generated 1599 programs
+2021-03-12 13:02:33|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:03:04|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:03:50|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:04:22|INFO |Generated 3389 programs
+2021-03-12 13:04:29|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:05:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:06:22|INFO |Generated 2166 programs
+2021-03-12 13:06:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:06:41 URL:https://oeis.org/A333171/b333171.txt [107411/107411] -> "/home/jamie/.loda/oeis/b/333/b333171.txt" [1]
+2021-03-12 13:07:41|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:08:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:08:27|INFO |Generated 2215 programs
+2021-03-12 13:09:29|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:10:09|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:10:27 URL:https://oeis.org/A249123/b249123.txt [103133/103133] -> "/home/jamie/.loda/oeis/b/249/b249123.txt" [1]
+2021-03-12 13:10:28|INFO |Generated 1979 programs
+2021-03-12 13:11:02|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:12:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:12:31|INFO |Generated 2225 programs
+2021-03-12 13:12:53|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:12:53 URL:https://oeis.org/A088680/b088680.txt [536/536] -> "/home/jamie/.loda/oeis/b/088/b088680.txt" [1]
+2021-03-12 13:12:55|ALERT|First program for A088680: a(n) = prime(2n+1) - prime(2n). Terms: 2,4,4,4,2,4,4,6,6,2,4,8,2,2,14,6,10,6,4,6
+2021-03-12 13:12:56 URL:https://oeis.org/A256736/b256736.txt [6168/6168] -> "/home/jamie/.loda/oeis/b/256/b256736.txt" [1]
+2021-03-12 13:13:43|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:14:10|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:14:31|INFO |Generated 3495 programs
+2021-03-12 13:14:32|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:15:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:15:42|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:16:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:16:32|INFO |Generated 3322 programs
+2021-03-12 13:17:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:18:18|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:18:36|INFO |Generated 1932 programs
+2021-03-12 13:18:41 URL:https://oeis.org/A043286/b043286.txt [170282/170282] -> "/home/jamie/.loda/oeis/b/043/b043286.txt" [1]
+2021-03-12 13:18:55 URL:https://oeis.org/A031381/b031381.txt [9691/9691] -> "/home/jamie/.loda/oeis/b/031/b031381.txt" [1]
+2021-03-12 13:19:18|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:20:02|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:20:37|INFO |Generated 2827 programs
+2021-03-12 13:20:37|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:20:48|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:21:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:22:15|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:22:24 URL:https://oeis.org/A022776/b022776.txt [10124/10124] -> "/home/jamie/.loda/oeis/b/022/b022776.txt" [1]
+2021-03-12 13:23:51|INFO |Generated 3467 programs
+2021-03-12 13:24:24|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:25:22|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:25:57|INFO |Generated 2063 programs
+2021-03-12 13:26:18|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:28:57|INFO |Generated 597 programs
+2021-03-12 13:29:20|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:29:59|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:30:22|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:30:54|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:31:01|INFO |Generated 4104 programs
+2021-03-12 13:31:32|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:32:27|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:33:07|INFO |Generated 2162 programs
+2021-03-12 13:34:14|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:34:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:35:12|INFO |Generated 2655 programs
+2021-03-12 13:35:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:35:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:36:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:37:12|INFO |Generated 2861 programs
+2021-03-12 13:37:12|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:37:53|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:39:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:39:09 URL:https://oeis.org/A110745/b110745.txt [136665/136665] -> "/home/jamie/.loda/oeis/b/110/b110745.txt" [1]
+2021-03-12 13:39:13|INFO |Generated 2369 programs
+2021-03-12 13:39:33 URL:https://oeis.org/A051034/b051034.txt [68897/68897] -> "/home/jamie/.loda/oeis/b/051/b051034.txt" [1]
+2021-03-12 13:39:48|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:40:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:41:14|INFO |Generated 2774 programs
+2021-03-12 13:41:14|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:42:06|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:43:14|INFO |Generated 1774 programs
+2021-03-12 13:43:19|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:43:46|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:45:06|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:45:23|INFO |Generated 2328 programs
+2021-03-12 13:46:16|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:46:16 URL:https://oeis.org/A005722/b005722.txt [12169/12169] -> "/home/jamie/.loda/oeis/b/005/b005722.txt" [1]
+2021-03-12 13:46:18|ALERT|First program for A005722: a(n) = (prime(n) - 1)^2. Terms: 1,4,16,36,100,144,256,324,484,784,900,1296,1600,1764,2116,2704,3364,3600,4356,4900
+2021-03-12 13:46:57|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:47:43|INFO |Generated 2217 programs
+2021-03-12 13:48:03|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:48:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:49:20|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:49:45|INFO |Generated 3070 programs
+2021-03-12 13:50:59|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:51:04 URL:https://oeis.org/A071917/b071917.txt [269510/269510] -> "/home/jamie/.loda/oeis/b/071/b071917.txt" [1]
+2021-03-12 13:52:12 URL:https://oeis.org/A292918/b292918.txt [125421/125421] -> "/home/jamie/.loda/oeis/b/292/b292918.txt" [1]
+2021-03-12 13:53:18|INFO |Generated 1262 programs
+2021-03-12 13:53:46|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:54:02|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:54:19|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:55:08|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:55:21|INFO |Generated 3747 programs
+2021-03-12 13:55:54|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:56:31|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:57:21|INFO |Generated 2362 programs
+2021-03-12 13:57:30|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:57:57 URL:https://oeis.org/A015053/b015053.txt [7648/7648] -> "/home/jamie/.loda/oeis/b/015/b015053.txt" [1]
+2021-03-12 13:58:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:59:03|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 13:59:23|INFO |Generated 2878 programs
+2021-03-12 14:00:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 14:01:24|INFO |Generated 907 programs
+2021-03-12 14:01:27|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 14:01:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 14:01:57 URL:https://oeis.org/A020914/b020914.txt [221893/221893] -> "/home/jamie/.loda/oeis/b/020/b020914.txt" [1]
+2021-03-12 14:01:58 URL:https://oeis.org/A022330/b022330.txt [133714/133714] -> "/home/jamie/.loda/oeis/b/022/b022330.txt" [1]
+2021-03-12 14:02:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 14:02:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 14:03:28|INFO |Generated 4323 programs
+2021-03-12 14:03:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 14:04:11|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 14:05:01|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 14:06:03|INFO |Generated 2509 programs
+2021-03-12 14:06:24|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 14:07:37|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:20:53|INFO |Generated 1859 programs
+2021-03-12 17:21:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:21:43|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:22:32 URL:https://oeis.org/A115300/b115300.txt [73480/73480] -> "/home/jamie/.loda/oeis/b/115/b115300.txt" [1]
+2021-03-12 17:22:33|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:22:53|INFO |Generated 3315 programs
+2021-03-12 17:23:09 URL:https://oeis.org/A284365/b284365.txt [103992/103992] -> "/home/jamie/.loda/oeis/b/284/b284365.txt" [1]
+2021-03-12 17:23:16|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:24:19|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:24:53|INFO |Generated 1803 programs
+2021-03-12 17:26:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:29:41|INFO |Generated 1179 programs
+2021-03-12 17:29:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:30:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:30:55 URL:https://oeis.org/A059547/b059547.txt [18317/18317] -> "/home/jamie/.loda/oeis/b/059/b059547.txt" [1]
+2021-03-12 17:30:56 URL:https://oeis.org/A064719/b064719.txt [18316/18316] -> "/home/jamie/.loda/oeis/b/064/b064719.txt" [1]
+2021-03-12 17:31:11|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:31:40 URL:https://oeis.org/A172269/b172269.txt [7998/7998] -> "/home/jamie/.loda/oeis/b/172/b172269.txt" [1]
+2021-03-12 17:31:41 URL:https://oeis.org/A068499/b068499.txt [107871/107871] -> "/home/jamie/.loda/oeis/b/068/b068499.txt" [1]
+2021-03-12 17:31:44|ALERT|First program for A068499: Numbers m such that m! reduced modulo (m+1) is not zero. Terms: 1,2,3,4,6,10,12,16,18,22,28,30,36,40,42,46,52,58,60,66
+2021-03-12 17:31:44|INFO |Generated 3120 programs
+2021-03-12 17:31:49|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:32:08|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:32:49|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:33:12|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:33:44|INFO |Generated 3854 programs
+2021-03-12 17:33:59|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:34:16 URL:https://oeis.org/A022844/b022844.txt [105363/105363] -> "/home/jamie/.loda/oeis/b/022/b022844.txt" [1]
+2021-03-12 17:34:26|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:35:15|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:35:19 URL:https://oeis.org/A059562/b059562.txt [19494/19494] -> "/home/jamie/.loda/oeis/b/059/b059562.txt" [1]
+2021-03-12 17:35:46|INFO |Generated 3424 programs
+2021-03-12 17:35:47|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:36:10|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:36:39 URL:https://oeis.org/A083656/b083656.txt [64277/64277] -> "/home/jamie/.loda/oeis/b/083/b083656.txt" [1]
+2021-03-12 17:37:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:37:49|INFO |Generated 2272 programs
+2021-03-12 17:38:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:39:31 URL:https://oeis.org/A172334/b172334.txt [8692/8692] -> "/home/jamie/.loda/oeis/b/172/b172334.txt" [1]
+2021-03-12 17:39:36|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:40:45|INFO |Generated 2349 programs
+2021-03-12 17:40:50 URL:https://oeis.org/A028899/b028899.txt [88280/88280] -> "/home/jamie/.loda/oeis/b/028/b028899.txt" [1]
+2021-03-12 17:41:29|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:42:42|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:42:50|INFO |Generated 1622 programs
+2021-03-12 17:42:58 URL:https://oeis.org/A001964/b001964.txt [106780/106780] -> "/home/jamie/.loda/oeis/b/001/b001964.txt" [1]
+2021-03-12 17:43:32|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:44:42 URL:https://oeis.org/A257531/b257531.txt [534047/534047] -> "/home/jamie/.loda/oeis/b/257/b257531.txt" [1]
+2021-03-12 17:44:51|INFO |Generated 1436 programs
+2021-03-12 17:45:35|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:46:30|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:46:55|INFO |Generated 1624 programs
+2021-03-12 17:47:35|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:48:20|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:49:02|INFO |Generated 2597 programs
+2021-03-12 17:49:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:49:56|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:50:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:51:03|INFO |Generated 2466 programs
+2021-03-12 17:51:28|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:51:57|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:52:54 URL:https://oeis.org/A061503/b061503.txt [9533/9533] -> "/home/jamie/.loda/oeis/b/061/b061503.txt" [1]
+2021-03-12 17:53:39 URL:https://oeis.org/A182082/b182082.txt [8849/8849] -> "/home/jamie/.loda/oeis/b/182/b182082.txt" [1]
+2021-03-12 17:55:53|INFO |Generated 2057 programs
+2021-03-12 17:56:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:57:33|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 17:58:07|INFO |Generated 1668 programs
+2021-03-12 17:59:14 URL:https://oeis.org/A044519/b044519.txt [9748/9748] -> "/home/jamie/.loda/oeis/b/044/b044519.txt" [1]
+2021-03-12 17:59:19|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:00:24|INFO |Generated 1785 programs
+2021-03-12 18:00:30|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:00:55|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:01:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:02:31|INFO |Generated 2267 programs
+2021-03-12 18:02:37|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:03:11|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:04:10|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:04:36|INFO |Generated 3296 programs
+2021-03-12 18:04:45 URL:https://oeis.org/A236677/b236677.txt [56241/56241] -> "/home/jamie/.loda/oeis/b/236/b236677.txt" [1]
+2021-03-12 18:04:46 URL:https://oeis.org/A236678/b236678.txt [71943/71943] -> "/home/jamie/.loda/oeis/b/236/b236678.txt" [1]
+2021-03-12 18:06:33|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:06:36|INFO |Generated 677 programs
+2021-03-12 18:07:19|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:08:02|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:08:37|INFO |Generated 2318 programs
+2021-03-12 18:09:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:09:26|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:09:42|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:10:44|INFO |Generated 3640 programs
+2021-03-12 18:10:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:13:06|INFO |Generated 136 programs
+2021-03-12 18:13:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:13:59|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:14:47|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:15:07|INFO |Generated 3016 programs
+2021-03-12 18:15:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:16:06|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:17:08|INFO |Generated 2212 programs
+2021-03-12 18:17:17 URL:https://oeis.org/A154115/b154115.txt [19469/19469] -> "/home/jamie/.loda/oeis/b/154/b154115.txt" [1]
+2021-03-12 18:17:19|ALERT|First program for A154115: Numbers n such that n + 3 is prime. Terms: 0,2,4,8,10,14,16,20,26,28,34,38,40,44,50,56,58,64,68,70
+2021-03-12 18:17:25|ALERT|First program for A031215: a(n) = prime(2n). Terms: 3,7,13,19,29,37,43,53,61,71,79,89,101,107,113,131,139,151,163,173
+2021-03-12 18:17:31 URL:https://oeis.org/A077126/b077126.txt [380/380] -> "/home/jamie/.loda/oeis/b/077/b077126.txt" [1]
+2021-03-12 18:17:31|ALERT|First program for A077126: Sum of even-indexed primes. Terms: 3,10,23,42,71,108,151,204,265,336,415,504,605,712,825,956,1095,1246,1409,1582
+2021-03-12 18:17:35 URL:https://oeis.org/A071148/b071148.txt [142010/142010] -> "/home/jamie/.loda/oeis/b/071/b071148.txt" [1]
+2021-03-12 18:19:08|INFO |Generated 325 programs
+2021-03-12 18:19:43|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:20:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:21:13|INFO |Generated 1865 programs
+2021-03-12 18:21:19|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:22:19|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:22:22 URL:https://oeis.org/A031750/b031750.txt [165459/165459] -> "/home/jamie/.loda/oeis/b/031/b031750.txt" [1]
+2021-03-12 18:23:19|INFO |Generated 2344 programs
+2021-03-12 18:23:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:24:27|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:25:11|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:25:21|INFO |Generated 2993 programs
+2021-03-12 18:25:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:26:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:26:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:27:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:27:23|INFO |Generated 3730 programs
+2021-03-12 18:28:16|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:28:50|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:29:25|INFO |Generated 2290 programs
+2021-03-12 18:29:26|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:30:04|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:30:49|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:31:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:31:26|INFO |Generated 3145 programs
+2021-03-12 18:32:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:32:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:33:22|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:33:27|INFO |Generated 3121 programs
+2021-03-12 18:40:20|INFO |Generated 579 programs
+2021-03-12 18:40:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:41:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:42:20|INFO |Generated 2062 programs
+2021-03-12 18:42:31|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:43:28|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:43:56|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:44:22|INFO |Generated 3073 programs
+2021-03-12 18:44:22|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:45:14|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 18:47:32|INFO |Generated 1413 programs
+2021-03-12 18:57:00|ALERT|First program for A001964: Wythoff game. Terms: 1,6,11,17,22,27,32,37,43,48,53,58,64,69,74,79,85,90,95,100
+2021-03-12 18:57:00|INFO |Generated 27 programs
+2021-03-12 18:59:06|INFO |Generated 7 programs
+2021-03-12 19:01:16|INFO |Generated 4 programs
+2021-03-12 19:03:40|INFO |Generated 4 programs
+2021-03-12 19:05:59|INFO |Generated 4 programs
+2021-03-12 19:08:18|INFO |Generated 4 programs
+2021-03-12 19:10:38|INFO |Generated 4 programs
+2021-03-12 19:12:58|INFO |Generated 4 programs
+2021-03-12 19:15:16|INFO |Generated 4 programs
+2021-03-12 19:17:36|INFO |Generated 4 programs
+2021-03-12 19:19:54|INFO |Generated 4 programs
+2021-03-12 19:22:03|INFO |Generated 3 programs
+2021-03-12 19:24:33|INFO |Generated 5 programs
+2021-03-12 19:26:35|INFO |Generated 4 programs
+2021-03-12 19:29:00|INFO |Generated 4 programs
+2021-03-12 19:31:19|INFO |Generated 4 programs
+2021-03-12 19:33:37|INFO |Generated 4 programs
+2021-03-12 19:35:57|INFO |Generated 4 programs
+2021-03-12 19:38:01|INFO |Generated 6 programs
+2021-03-12 19:40:20|INFO |Generated 4 programs
+2021-03-12 19:44:02|INFO |Generated 6 programs
+2021-03-12 19:46:20|INFO |Generated 5 programs
+2021-03-12 19:48:39|INFO |Generated 4 programs
+2021-03-12 19:49:26 URL:https://oeis.org/A072353/b072353.txt [8664/8664] -> "/home/jamie/.loda/oeis/b/072/b072353.txt" [1]
+2021-03-12 19:49:32|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 19:50:07 URL:https://oeis.org/A043667/b043667.txt [58894/58894] -> "/home/jamie/.loda/oeis/b/043/b043667.txt" [1]
+2021-03-12 19:50:07 URL:https://oeis.org/A043703/b043703.txt [102171/102171] -> "/home/jamie/.loda/oeis/b/043/b043703.txt" [1]
+2021-03-12 19:50:14|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 19:50:41|INFO |Generated 2421 programs
+2021-03-12 19:50:43|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 19:51:35 URL:https://oeis.org/A115971/b115971.txt [513677/513677] -> "/home/jamie/.loda/oeis/b/115/b115971.txt" [1]
+2021-03-12 19:51:38 URL:https://oeis.org/A320007/b320007.txt [513768/513768] -> "/home/jamie/.loda/oeis/b/320/b320007.txt" [1]
+2021-03-12 19:51:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 19:52:17|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 19:52:19 URL:https://oeis.org/A043675/b043675.txt [147813/147813] -> "/home/jamie/.loda/oeis/b/043/b043675.txt" [1]
+2021-03-12 19:53:06|INFO |Generated 2324 programs
+2021-03-12 19:53:55|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 19:54:32|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 19:55:10|INFO |Generated 2758 programs
+2021-03-12 19:55:11|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 19:58:46|INFO |Generated 727 programs
+2021-03-12 19:59:04|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 19:59:43|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:00:35|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:07:27|INFO |Generated 2445 programs
+2021-03-12 20:07:55|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:08:40|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:12:27|INFO |Generated 2463 programs
+2021-03-12 20:12:30|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:13:01|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:13:02 URL:https://oeis.org/A280076/b280076.txt [154018/154018] -> "/home/jamie/.loda/oeis/b/280/b280076.txt" [1]
+2021-03-12 20:13:04|ALERT|First program for A280076: Numbers n such that Sum_{d|n} tau(d) = Product_{d|n} tau(d). Terms: 1,4,9,25,49,121,169,289,361,529,841,961,1369,1681,1849,2209,2809,3481,3721,4489
+2021-03-12 20:13:04 URL:https://oeis.org/A024525/b024525.txt [392/392] -> "/home/jamie/.loda/oeis/b/024/b024525.txt" [1]
+2021-03-12 20:13:04|ALERT|First program for A024525: 1^2+prime(1)^2+prime(2)^2+...+prime(n)^2. Terms: 1,5,14,39,88,209,378,667,1028,1557,2398,3359,4728,6409,8258,10467,13276,16757,20478,24967
+2021-03-12 20:13:25 URL:https://oeis.org/A024450/b024450.txt [87235/87235] -> "/home/jamie/.loda/oeis/b/024/b024450.txt" [1]
+2021-03-12 20:14:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:14:28|INFO |Generated 3049 programs
+2021-03-12 20:14:36|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:15:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:16:09|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:16:44|INFO |Generated 2644 programs
+2021-03-12 20:16:48 URL:https://oeis.org/A286689/b286689.txt [99413/99413] -> "/home/jamie/.loda/oeis/b/286/b286689.txt" [1]
+2021-03-12 20:17:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:18:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:18:44|INFO |Generated 2086 programs
+2021-03-12 20:19:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:19:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:20:58|INFO |Generated 2486 programs
+2021-03-12 20:21:11|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:21:59|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:24:00|INFO |Generated 2097 programs
+2021-03-12 20:24:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:31:39|INFO |Generated 895 programs
+2021-03-12 20:31:46|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:32:26|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:33:08|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:33:32|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:33:39|INFO |Generated 3497 programs
+2021-03-12 20:34:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:35:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:35:46|INFO |Generated 2197 programs
+2021-03-12 20:36:01|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:36:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:37:32|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:37:48|INFO |Generated 2880 programs
+2021-03-12 20:38:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:39:51|INFO |Generated 1528 programs
+2021-03-12 20:39:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:40:36|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:41:15|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:41:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:41:54|INFO |Generated 3083 programs
+2021-03-12 20:42:26|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:42:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:43:30|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:43:55|INFO |Generated 3414 programs
+2021-03-12 20:44:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:45:01|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:45:54|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:45:56|INFO |Generated 2706 programs
+2021-03-12 20:46:49|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:46:50 URL:https://oeis.org/A319747/b319747.txt [64047/64047] -> "/home/jamie/.loda/oeis/b/319/b319747.txt" [1]
+2021-03-12 20:47:46|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:47:57|INFO |Generated 2191 programs
+2021-03-12 20:48:43|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:49:28 URL:https://oeis.org/A267098/b267098.txt [753189/753189] -> "/home/jamie/.loda/oeis/b/267/b267098.txt" [1]
+2021-03-12 20:49:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:49:59|INFO |Generated 2216 programs
+2021-03-12 20:50:27|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:51:12|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:51:23 URL:https://oeis.org/A333790/b333790.txt [225189/225189] -> "/home/jamie/.loda/oeis/b/333/b333790.txt" [1]
+2021-03-12 20:51:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:52:15|INFO |Generated 2705 programs
+2021-03-12 20:52:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:53:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:54:15|INFO |Generated 2664 programs
+2021-03-12 20:54:30|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:55:03|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:55:05 URL:https://oeis.org/A206805/b206805.txt [8213/8213] -> "/home/jamie/.loda/oeis/b/206/b206805.txt" [1]
+2021-03-12 20:55:06 URL:https://oeis.org/A226720/b226720.txt [18217/18217] -> "/home/jamie/.loda/oeis/b/226/b226720.txt" [1]
+2021-03-12 20:56:20|INFO |Generated 1641 programs
+2021-03-12 20:56:48|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 20:58:24|INFO |Generated 1306 programs
+2021-03-12 21:00:24|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:00:25|INFO |Generated 393 programs
+2021-03-12 21:00:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:01:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:02:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:02:37|INFO |Generated 2945 programs
+2021-03-12 21:03:04|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:03:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:04:06|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:04:26|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:04:39|INFO |Generated 4259 programs
+2021-03-12 21:04:47|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:05:36|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:06:43|INFO |Generated 2098 programs
+2021-03-12 21:06:44 URL:https://oeis.org/A003052/b003052.txt [108007/108007] -> "/home/jamie/.loda/oeis/b/003/b003052.txt" [1]
+2021-03-12 21:07:06|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:08:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:09:02|INFO |Generated 2414 programs
+2021-03-12 21:09:02|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:09:21 URL:https://oeis.org/A072613/b072613.txt [94872/94872] -> "/home/jamie/.loda/oeis/b/072/b072613.txt" [1]
+2021-03-12 21:22:12|ALERT|First program for A072613: Number of numbers of the form p*q (p, q distinct primes) less than or equal to n. Terms: 0,0,0,0,0,1,1,1,1,2,2,2,2,3,4,4,4,4,4,4
+2021-03-12 21:22:12|INFO |Generated 892 programs
+2021-03-12 21:24:17|INFO |Generated 17 programs
+2021-03-12 21:26:19|INFO |Generated 15 programs
+2021-03-12 21:28:23|INFO |Generated 14 programs
+2021-03-12 21:30:25|INFO |Generated 14 programs
+2021-03-12 21:32:29|INFO |Generated 17 programs
+2021-03-12 21:33:28|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:34:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:34:29|INFO |Generated 1288 programs
+2021-03-12 21:35:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:36:49|INFO |Generated 1156 programs
+2021-03-12 21:37:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:38:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:38:50|INFO |Generated 1900 programs
+2021-03-12 21:39:20|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:39:49|ALERT|First program for A177018: a(n) is the smallest integer >= a(n-1) such that a(n) + A067076(n) + n-1 is an odd prime. Terms: 3,3,3,4,4,5,5,6,8,8,10,11,11,12,14,16,16,18,19,19
+2021-03-12 21:39:50 URL:https://oeis.org/A108754/b108754.txt [411/411] -> "/home/jamie/.loda/oeis/b/108/b108754.txt" [1]
+2021-03-12 21:39:50|ALERT|First program for A108754: Difference between partial sum of the first n primes and n^2. Terms: 1,1,1,1,3,5,9,13,19,29,39,53,69,85,103,125,151,177,207,239
+2021-03-12 21:39:51 URL:https://oeis.org/A102781/b102781.txt [106383/106383] -> "/home/jamie/.loda/oeis/b/102/b102781.txt" [1]
+2021-03-12 21:39:52|ALERT|First program for A102781: Number of positive even numbers less than the n-th prime. Terms: 0,1,2,3,5,6,8,9,11,14,15,18,20,21,23,26,29,30,33,35
+2021-03-12 21:39:54|ALERT|First program for A111333: Number of odd numbers <= n-th prime. Terms: 1,2,3,4,6,7,9,10,12,15,16,19,21,22,24,27,30,31,34,36
+2021-03-12 21:39:54 URL:https://oeis.org/A124678/b124678.txt [2103/2103] -> "/home/jamie/.loda/oeis/b/124/b124678.txt" [1]
+2021-03-12 21:39:56|ALERT|First program for A124678: Number of conjugacy classes in PSL_2(p), p = prime(n). Terms: 3,4,5,6,8,9,11,12,14,17,18,21,23,24,26,29,32,33,36,38
+2021-03-12 21:39:58 URL:https://oeis.org/A062876/b062876.txt [115810/115810] -> "/home/jamie/.loda/oeis/b/062/b062876.txt" [1]
+2021-03-12 21:39:59|ALERT|First program for A062876: Numbers of lattice points corresponding to incrementally largest circle radii in A062875. Terms: 4,12,20,28,44,52,68,76,92,116,124,148,164,172,188,212,236,244,268,284
+2021-03-12 21:40:00 URL:https://oeis.org/A176997/b176997.txt [107773/107773] -> "/home/jamie/.loda/oeis/b/176/b176997.txt" [1]
+2021-03-12 21:40:04 URL:https://oeis.org/A129074/b129074.txt [9732/9732] -> "/home/jamie/.loda/oeis/b/129/b129074.txt" [1]
+2021-03-12 21:40:06|ALERT|First program for A129074: Numbers n such that (n-9)/8 is prime. Terms: 25,33,49,65,97,113,145,161,193,241,257,305,337,353,385,433,481,497,545,577
+2021-03-12 21:40:49|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:40:51|INFO |Generated 1734 programs
+2021-03-12 21:42:04 URL:https://oeis.org/A135267/b135267.txt [10883/10883] -> "/home/jamie/.loda/oeis/b/135/b135267.txt" [1]
+2021-03-12 21:42:06 URL:https://oeis.org/A101301/b101301.txt [66770/66770] -> "/home/jamie/.loda/oeis/b/101/b101301.txt" [1]
+2021-03-12 21:42:07 URL:https://oeis.org/A237589/b237589.txt [398/398] -> "/home/jamie/.loda/oeis/b/237/b237589.txt" [1]
+2021-03-12 21:42:07|ALERT|First program for A237589: Sum of first n odd noncomposite numbers. Terms: 1,4,9,16,27,40,57,76,99,128,159,196,237,280,327,380,439,500,567,638
+2021-03-12 21:42:13 URL:https://oeis.org/A060939/b060939.txt [11060/11060] -> "/home/jamie/.loda/oeis/b/060/b060939.txt" [1]
+2021-03-12 21:42:14 URL:https://oeis.org/A055670/b055670.txt [237876/237876] -> "/home/jamie/.loda/oeis/b/055/b055670.txt" [1]
+2021-03-12 21:42:21 URL:https://oeis.org/A103976/b103976.txt [413/413] -> "/home/jamie/.loda/oeis/b/103/b103976.txt" [1]
+2021-03-12 21:42:21|ALERT|First program for A103976: Partial sums of A040976 (= primes-2). Terms: 0,1,4,9,18,29,44,61,82,109,138,173,212,253,298,349,406,465,530,599
+2021-03-12 21:42:51|INFO |Generated 320 programs
+2021-03-12 21:43:03 URL:https://oeis.org/A134181/b134181.txt [406/406] -> "/home/jamie/.loda/oeis/b/134/b134181.txt" [1]
+2021-03-12 21:43:03|ALERT|First program for A134181: Difference between cumulative prime and odd sums. Terms: 0,0,0,2,4,8,12,18,28,38,52,68,84,102,124,150,176,206,238,270
+2021-03-12 21:43:24 URL:https://oeis.org/A039915/b039915.txt [8702/8702] -> "/home/jamie/.loda/oeis/b/039/b039915.txt" [1]
+2021-03-12 21:44:52|INFO |Generated 169 programs
+2021-03-12 21:46:47|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:46:52|INFO |Generated 637 programs
+2021-03-12 21:47:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:48:10 URL:https://oeis.org/A061577/b061577.txt [132479/132479] -> "/home/jamie/.loda/oeis/b/061/b061577.txt" [1]
+2021-03-12 21:48:53|INFO |Generated 1424 programs
+2021-03-12 21:49:03|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:49:52|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:50:01 URL:https://oeis.org/A043095/b043095.txt [48064/48064] -> "/home/jamie/.loda/oeis/b/043/b043095.txt" [1]
+2021-03-12 21:50:29 URL:https://oeis.org/A292636/b292636.txt [8079/8079] -> "/home/jamie/.loda/oeis/b/292/b292636.txt" [1]
+2021-03-12 21:50:31|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:50:59|INFO |Generated 2913 programs
+2021-03-12 21:51:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:52:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:53:07|INFO |Generated 2242 programs
+2021-03-12 21:53:12|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:53:41|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 21:54:08 URL:https://oeis.org/A282473/b282473.txt [117660/117660] -> "/home/jamie/.loda/oeis/b/282/b282473.txt" [1]
+2021-03-12 22:09:00|INFO |Generated 2189 programs
+2021-03-12 22:09:09|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:10:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:11:01|INFO |Generated 2057 programs
+2021-03-12 22:11:06|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:11:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:12:53|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:13:04|INFO |Generated 2443 programs
+2021-03-12 22:13:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:14:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:14:17 URL:https://oeis.org/A003619/b003619.txt [97809/97809] -> "/home/jamie/.loda/oeis/b/003/b003619.txt" [1]
+2021-03-12 22:15:03|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:15:05|INFO |Generated 2780 programs
+2021-03-12 22:15:52 URL:https://oeis.org/A284675/b284675.txt [106315/106315] -> "/home/jamie/.loda/oeis/b/284/b284675.txt" [1]
+2021-03-12 22:16:22|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:17:15|INFO |Generated 1188 programs
+2021-03-12 22:17:28|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:18:20|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:18:33 URL:https://oeis.org/A136614/b136614.txt [78834/78834] -> "/home/jamie/.loda/oeis/b/136/b136614.txt" [1]
+2021-03-12 22:18:55|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:19:08 URL:https://oeis.org/A031336/b031336.txt [9418/9418] -> "/home/jamie/.loda/oeis/b/031/b031336.txt" [1]
+2021-03-12 22:19:18|INFO |Generated 3191 programs
+2021-03-12 22:19:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:20:07 URL:https://oeis.org/A244063/b244063.txt [33889/33889] -> "/home/jamie/.loda/oeis/b/244/b244063.txt" [1]
+2021-03-12 22:20:31|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:20:41 URL:https://oeis.org/A043568/b043568.txt [68899/68899] -> "/home/jamie/.loda/oeis/b/043/b043568.txt" [1]
+2021-03-12 22:21:43|INFO |Generated 1991 programs
+2021-03-12 22:21:53|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:22:27|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:22:48|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:23:31|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:23:45|INFO |Generated 3973 programs
+2021-03-12 22:24:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:24:54|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:25:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:25:46|INFO |Generated 2944 programs
+2021-03-12 22:26:57|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:27:19 URL:https://oeis.org/A276397/b276397.txt [92650/92650] -> "/home/jamie/.loda/oeis/b/276/b276397.txt" [1]
+2021-03-12 22:27:24|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:27:48|INFO |Generated 1811 programs
+2021-03-12 22:28:33|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:29:29|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:29:52|INFO |Generated 2375 programs
+2021-03-12 22:30:10|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:30:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:31:53|INFO |Generated 2266 programs
+2021-03-12 22:31:54|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:32:12 URL:https://oeis.org/A039216/b039216.txt [101907/101907] -> "/home/jamie/.loda/oeis/b/039/b039216.txt" [1]
+2021-03-12 22:32:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:32:32 URL:https://oeis.org/A235918/b235918.txt [68917/68917] -> "/home/jamie/.loda/oeis/b/235/b235918.txt" [1]
+2021-03-12 22:32:33 URL:https://oeis.org/A236454/b236454.txt [68917/68917] -> "/home/jamie/.loda/oeis/b/236/b236454.txt" [1]
+2021-03-12 22:33:08|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:34:28|INFO |Generated 2942 programs
+2021-03-12 22:34:28|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:35:02|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:35:43|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:36:45|INFO |Generated 2431 programs
+2021-03-12 22:37:19|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:38:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:38:45|INFO |Generated 2036 programs
+2021-03-12 22:41:02|INFO |Generated 289 programs
+2021-03-12 22:41:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:43:06|INFO |Generated 545 programs
+2021-03-12 22:43:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:44:35|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:44:57 URL:https://oeis.org/A025643/b025643.txt [80256/80256] -> "/home/jamie/.loda/oeis/b/025/b025643.txt" [1]
+2021-03-12 22:45:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:45:07|INFO |Generated 3004 programs
+2021-03-12 22:45:53|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:46:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:46:36 URL:https://oeis.org/A032094/b032094.txt [19245/19245] -> "/home/jamie/.loda/oeis/b/032/b032094.txt" [1]
+2021-03-12 22:47:13|INFO |Generated 1866 programs
+2021-03-12 22:47:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:48:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:49:13|INFO |Generated 2868 programs
+2021-03-12 22:49:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:49:50|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:50:32|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:51:14|INFO |Generated 2569 programs
+2021-03-12 22:51:29|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:52:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:52:49|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:53:15|INFO |Generated 3406 programs
+2021-03-12 22:53:15|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:54:13 URL:https://oeis.org/A322533/b322533.txt [105799/105799] -> "/home/jamie/.loda/oeis/b/322/b322533.txt" [1]
+2021-03-12 22:54:14 URL:https://oeis.org/A322534/b322534.txt [105796/105796] -> "/home/jamie/.loda/oeis/b/322/b322534.txt" [1]
+2021-03-12 22:54:33|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:54:48 URL:https://oeis.org/A305238/b305238.txt [100534/100534] -> "/home/jamie/.loda/oeis/b/305/b305238.txt" [1]
+2021-03-12 22:55:19|INFO |Generated 1633 programs
+2021-03-12 22:55:30|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:56:03|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:56:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:57:19|INFO |Generated 2679 programs
+2021-03-12 22:57:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:58:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 22:59:21|INFO |Generated 2464 programs
+2021-03-12 22:59:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:00:10|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:00:53|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:01:21|INFO |Generated 2792 programs
+2021-03-12 23:01:42|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:02:29|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:03:01|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:03:22|INFO |Generated 2996 programs
+2021-03-12 23:04:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:04:55|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:05:23|INFO |Generated 1933 programs
+2021-03-12 23:05:42|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:06:49|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:07:24|INFO |Generated 2263 programs
+2021-03-12 23:07:27|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:08:29 URL:https://oeis.org/A177102/b177102.txt [105381/105381] -> "/home/jamie/.loda/oeis/b/177/b177102.txt" [1]
+2021-03-12 23:08:29|ALERT|First program for A177102: Beatty sequence for sqrt(10). Terms: 3,6,9,12,15,18,22,25,28,31,34,37,41,44,47,50,53,56,60,63
+2021-03-12 23:08:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:09:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:09:26|INFO |Generated 2493 programs
+2021-03-12 23:10:02|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:10:47|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:11:31|INFO |Generated 2308 programs
+2021-03-12 23:11:57|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:15:04|INFO |Generated 1278 programs
+2021-03-12 23:15:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:15:52|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:16:33|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:17:04|INFO |Generated 3191 programs
+2021-03-12 23:17:04|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:17:41|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:18:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:18:58|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:19:06|INFO |Generated 3260 programs
+2021-03-12 23:19:22|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:19:46|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:20:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:20:58|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:21:06|INFO |Generated 3998 programs
+2021-03-12 23:21:37|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:22:22|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:22:56|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-12 23:23:10|INFO |Generated 3609 programs
+2021-03-12 23:23:11 URL:https://oeis.org/A284556/b284556.txt [64517/64517] -> "/home/jamie/.loda/oeis/b/284/b284556.txt" [1]
+2021-03-12 23:27:40|ALERT|First program for A284556: Sequence c of the mutual recurrence pair: b(0) = 0, b(1) = 1, b(2n) = c(n), b(2n+1) = b(n) + b(n+1), c(0) = c(1) = 0, c(2n) = b(n), c(2n+1) = c(n) + c(n+1). Terms: 0,0,1,1,0,2,1,1,1,2,1,3,1,2,2,2,0,3,2,3
+2021-03-12 23:27:40|INFO |Generated 181 programs
+2021-03-12 23:29:57|INFO |Generated 1 programs
+2021-03-12 23:32:14|INFO |Generated 1 programs
+2021-03-12 23:36:48|INFO |Generated 1 programs
+2021-03-12 23:42:58|INFO |Generated 2 programs
+2021-03-12 23:49:06|INFO |Generated 1 programs
+2021-03-12 23:55:40|INFO |Generated 7 programs
+2021-03-13 00:01:45|INFO |Generated 1 programs
+2021-03-13 00:07:51|INFO |Generated 2 programs
+2021-03-13 00:13:57|INFO |Generated 1 programs
+2021-03-13 00:20:05|INFO |Generated 1 programs
+2021-03-13 00:26:14|INFO |Generated 1 programs
+2021-03-13 00:32:21|INFO |Generated 1 programs
+2021-03-13 00:38:27|INFO |Generated 1 programs
+2021-03-13 00:44:32|INFO |Generated 1 programs
+2021-03-13 00:50:39|INFO |Generated 1 programs
+2021-03-13 00:56:46|INFO |Generated 1 programs
+2021-03-13 01:01:22|INFO |Generated 1 programs
+2021-03-13 01:03:39|INFO |Generated 1 programs
+2021-03-13 01:07:27|INFO |Generated 1 programs
+2021-03-13 01:13:33|INFO |Generated 1 programs
+2021-03-13 01:19:38|INFO |Generated 1 programs
+2021-03-13 01:25:46|INFO |Generated 1 programs
+2021-03-13 01:31:54|INFO |Generated 1 programs
+2021-03-13 01:38:01|INFO |Generated 1 programs
+2021-03-13 01:44:07|INFO |Generated 1 programs
+2021-03-13 01:50:13|INFO |Generated 1 programs
+2021-03-13 01:56:18|INFO |Generated 1 programs
+2021-03-13 02:02:25|INFO |Generated 1 programs
+2021-03-13 02:08:33|INFO |Generated 1 programs
+2021-03-13 02:14:38|INFO |Generated 1 programs
+2021-03-13 02:20:44|INFO |Generated 1 programs
+2021-03-13 02:26:53|INFO |Generated 1 programs
+2021-03-13 02:32:58|INFO |Generated 2 programs
+2021-03-13 02:39:02|INFO |Generated 1 programs
+2021-03-13 02:45:10|INFO |Generated 1 programs
+2021-03-13 02:51:17|INFO |Generated 1 programs
+2021-03-13 02:57:25|INFO |Generated 1 programs
+2021-03-13 03:03:43|INFO |Generated 1 programs
+2021-03-13 03:09:52|INFO |Generated 1 programs
+2021-03-13 03:09:52|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-13 03:15:59|INFO |Generated 4 programs
+2021-03-13 03:22:05|INFO |Generated 1 programs
+2021-03-13 03:28:11|INFO |Generated 1 programs
+2021-03-13 03:34:18|INFO |Generated 7 programs
+2021-03-13 03:40:25|INFO |Generated 1 programs
+2021-03-13 03:46:32|INFO |Generated 1 programs
+2021-03-13 03:52:38|INFO |Generated 3 programs
+2021-03-13 03:58:45|INFO |Generated 1 programs
+2021-03-13 04:04:53|INFO |Generated 1 programs
+2021-03-13 04:10:58|INFO |Generated 1 programs
+2021-03-13 04:17:04|INFO |Generated 1 programs
+2021-03-13 04:23:11|INFO |Generated 1 programs
+2021-03-13 04:29:17|INFO |Generated 2 programs
+2021-03-13 04:35:24|INFO |Generated 1 programs
+2021-03-13 04:41:33|INFO |Generated 1 programs
+2021-03-13 04:47:56|INFO |Generated 9 programs
+2021-03-13 04:53:59|INFO |Generated 1 programs
+2021-03-13 05:00:04|INFO |Generated 1 programs
+2021-03-13 05:06:03|INFO |Generated 2 programs
+2021-03-13 05:13:56|INFO |Generated 1 programs
+2021-03-13 05:14:32 URL:https://oeis.org/A295889/b295889.txt [119962/119962] -> "/home/jamie/.loda/oeis/b/295/b295889.txt" [1]
+2021-03-13 05:14:32|ALERT|First program for A295889: a(n) = 1 if binary weights of n and 3n have the same parity, 0 otherwise. Terms: 1,0,0,1,0,1,1,1,0,1,1,0,1,0,1,1,0,1,1,0
+2021-03-13 05:14:35 URL:https://oeis.org/A295890/b295890.txt [513194/513194] -> "/home/jamie/.loda/oeis/b/295/b295890.txt" [1]
+2021-03-13 05:14:36|ALERT|First program for A295890: a(n) = 1 if binary weights of n and 3n have different parity, 0 otherwise; a(n) = A010060(n) XOR A010060(3n). Terms: 0,1,1,0,1,0,0,0,1,0,0,1,0,1,0,0,1,0,0,1
+2021-03-13 05:14:49|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-13 05:14:50 URL:https://oeis.org/A287676/b287676.txt [102598/102598] -> "/home/jamie/.loda/oeis/b/287/b287676.txt" [1]
+2021-03-13 05:14:52|ALERT|First program for A287676: Positions of 1 in A287674; complement of A287675. Terms: 1,4,5,6,9,10,13,14,15,18,19,20,23,24,27,28,29,32,33,36
+2021-03-13 05:14:55 URL:https://oeis.org/A003842/b003842.txt [76464/76464] -> "/home/jamie/.loda/oeis/b/003/b003842.txt" [1]
+2021-03-13 05:15:02|ALERT|First program for A003842: The infinite Fibonacci word: start with 1, repeatedly apply the morphism 1->12, 2->1, take limit; or, start with S(0)=2, S(1)=1, and for n>1 define S(n)=S(n-1)S(n-2), then the sequence is S(oo). Terms: 1,2,1,1,2,1,2,1,1,2,1,1,2,1,2,1,1,2,1,2
+2021-03-13 05:15:03 URL:https://oeis.org/A003849/b003849.txt [76465/76465] -> "/home/jamie/.loda/oeis/b/003/b003849.txt" [1]
+2021-03-13 05:15:10|ALERT|First program for A003849: The infinite Fibonacci word (start with 0, apply 0->01, 1->0, take limit). Terms: 0,1,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0,1,0,1
+2021-03-13 05:15:37|ALERT|First program for A286751: Positions of 1 in A286749; complement of A286750. Terms: 1,2,5,6,7,10,11,14,15,16,19,20,21,24,25,28,29,30,33,34
+2021-03-13 05:15:37 URL:https://oeis.org/A287803/b287803.txt [105193/105193] -> "/home/jamie/.loda/oeis/b/287/b287803.txt" [1]
+2021-03-13 05:15:44|ALERT|First program for A287803: Positions of 1 in A287801; complement of A287802. Terms: 1,6,7,10,15,16,21,22,25,30,31,34,39,40,45,46,49,54,55,60
+2021-03-13 05:16:04|INFO |Generated 980 programs
+2021-03-13 05:16:25 URL:https://oeis.org/A287658/b287658.txt [103343/103343] -> "/home/jamie/.loda/oeis/b/287/b287658.txt" [1]
+2021-03-13 05:16:32|ALERT|First program for A287658: Positions of 0 in A287657; complement of A287659. Terms: 1,4,5,7,10,11,14,15,17,20,21,23,26,27,30,31,33,36,37,40
+2021-03-13 05:18:13|INFO |Generated 6 programs
+2021-03-13 05:20:27|INFO |Generated 4 programs
+2021-03-13 05:22:40|INFO |Generated 4 programs
+2021-03-13 05:25:07|INFO |Generated 2 programs
+2021-03-13 05:27:33|INFO |Generated 2 programs
+2021-03-13 05:29:44|INFO |Generated 4 programs
+2021-03-13 05:32:19|INFO |Generated 8 programs
+2021-03-13 05:34:30|INFO |Generated 5 programs
+2021-03-13 05:36:56|INFO |Generated 2 programs
+2021-03-13 05:39:23|INFO |Generated 2 programs
+2021-03-13 05:41:51|INFO |Generated 2 programs
+2021-03-13 05:44:18|INFO |Generated 2 programs
+2021-03-13 06:02:29|ALERT|First program for A182761: Beatty sequence for (7 - sqrt(5))/2. Terms: 2,4,7,9,11,14,16,19,21,23,26,28,30,33,35,38,40,42,45,47
+2021-03-13 06:14:21|ALERT|First program for A249115: Floor(r*n), where r = (5 - sqrt(5))/2; the Beatty complement of A003231. Terms: 1,2,4,5,6,8,9,11,12,13,15,16,17,19,20,22,23,24,26,27
+2021-03-13 06:14:21|INFO |Generated 2 programs
+2021-03-13 06:24:59|INFO |Generated 1 programs
+2021-03-13 06:29:13|INFO |Generated 1 programs
+2021-03-13 06:43:48|INFO |Generated 2 programs
+2021-03-13 06:51:07|INFO |Generated 1 programs
+2021-03-13 06:58:32|INFO |Generated 1 programs
+2021-03-13 07:00:37|INFO |Generated 2 programs
+2021-03-13 07:07:55|INFO |Generated 3 programs
+2021-03-13 07:15:13|INFO |Generated 2 programs
+2021-03-13 07:22:33|INFO |Generated 1 programs
+2021-03-13 07:29:53|INFO |Generated 1 programs
+2021-03-13 07:37:10|INFO |Generated 1 programs
+2021-03-13 07:44:29|INFO |Generated 1 programs
+2021-03-13 07:51:47|INFO |Generated 1 programs
+2021-03-13 07:59:07|INFO |Generated 1 programs
+2021-03-13 08:06:27|INFO |Generated 1 programs
+2021-03-13 08:13:47|INFO |Generated 1 programs
+2021-03-13 08:21:05|INFO |Generated 1 programs
+2021-03-13 08:28:24|INFO |Generated 1 programs
+2021-03-13 08:35:43|INFO |Generated 1 programs
+2021-03-13 08:43:04|INFO |Generated 1 programs
+2021-03-13 08:50:25|INFO |Generated 1 programs
+2021-03-13 08:57:46|INFO |Generated 1 programs
+2021-03-13 09:04:58|INFO |Generated 1 programs
+2021-03-13 09:12:11|INFO |Generated 1 programs
+2021-03-13 09:19:22|INFO |Generated 1 programs
+2021-03-13 09:26:42|INFO |Generated 1 programs
+2021-03-13 09:33:54|INFO |Generated 1 programs
+2021-03-13 09:41:12|INFO |Generated 1 programs
+2021-03-13 09:50:21|INFO |Generated 1 programs
+2021-03-13 09:57:39|INFO |Generated 1 programs
+2021-03-13 10:04:59|INFO |Generated 1 programs
+2021-03-13 10:12:18|INFO |Generated 1 programs
+2021-03-13 10:19:39|INFO |Generated 1 programs
+2021-03-13 10:27:01|INFO |Generated 1 programs
+2021-03-13 10:34:22|INFO |Generated 1 programs
+2021-03-13 10:39:45|INFO |Generated 1 programs
+2021-03-13 10:47:04|INFO |Generated 1 programs
+2021-03-13 10:54:24|INFO |Generated 1 programs
+2021-03-13 11:01:42|INFO |Generated 1 programs
+2021-03-13 11:09:02|INFO |Generated 1 programs
+2021-03-13 11:16:23|INFO |Generated 1 programs
+2021-03-13 11:23:44|INFO |Generated 1 programs
+2021-03-13 11:23:57 URL:https://oeis.org/A289034/b289034.txt [68895/68895] -> "/home/jamie/.loda/oeis/b/289/b289034.txt" [1]
+2021-03-13 11:26:31|INFO |Generated 2 programs
+2021-03-13 11:35:44|INFO |Generated 4 programs
+2021-03-13 11:43:01|INFO |Generated 1 programs
+2021-03-13 11:50:21|INFO |Generated 3 programs
+2021-03-13 11:57:39|INFO |Generated 1 programs
+2021-03-13 12:21:29|INFO |Generated 2 programs
+2021-03-13 12:45:21|INFO |Generated 1 programs
+2021-03-13 12:52:40|INFO |Generated 2 programs
+2021-03-13 13:00:02|INFO |Generated 1 programs
+2021-03-13 13:29:10|INFO |Generated 2 programs
+2021-03-13 13:36:03|INFO |Generated 1 programs
+2021-03-13 13:43:20|INFO |Generated 3 programs
+2021-03-13 13:50:40|INFO |Generated 1 programs
+2021-03-13 13:58:47|INFO |Generated 2 programs
+2021-03-13 14:05:31|INFO |Generated 1 programs
+2021-03-13 14:29:20|INFO |Generated 2 programs
+2021-03-13 14:36:40|INFO |Generated 4 programs
+2021-03-13 14:43:56|INFO |Generated 1 programs
+2021-03-13 14:52:01|INFO |Generated 2 programs
+2021-03-13 14:59:20|INFO |Generated 5 programs
+2021-03-13 15:06:38|INFO |Generated 1 programs
+2021-03-13 15:10:29|INFO |Generated 3 programs
+2021-03-13 15:14:43|INFO |Generated 1 programs
+2021-03-13 15:22:04|INFO |Generated 1 programs
+2021-03-13 15:28:16|INFO |Generated 2 programs
+2021-03-13 15:38:58|INFO |Generated 1 programs
+2021-03-13 15:49:34|INFO |Generated 1 programs
+2021-03-13 15:51:37|INFO |Generated 2 programs
+2021-03-13 16:02:14|INFO |Generated 3 programs
+2021-03-13 16:12:52|INFO |Generated 2 programs
+2021-03-13 16:23:29|INFO |Generated 1 programs
+2021-03-13 16:34:08|INFO |Generated 1 programs
+2021-03-13 16:44:45|INFO |Generated 1 programs
+2021-03-13 16:55:22|INFO |Generated 1 programs
+2021-03-13 17:05:59|INFO |Generated 1 programs
+2021-03-13 17:16:40|INFO |Generated 1 programs
+2021-03-13 17:27:16|INFO |Generated 1 programs
+2021-03-13 17:37:53|INFO |Generated 1 programs
+2021-03-13 17:48:31|INFO |Generated 1 programs
+2021-03-13 17:59:12|INFO |Generated 1 programs
+2021-03-13 18:09:50|INFO |Generated 1 programs
+2021-03-13 18:20:31|INFO |Generated 1 programs
+2021-03-13 18:31:09|INFO |Generated 1 programs
+2021-03-13 18:41:50|INFO |Generated 1 programs
+2021-03-13 18:52:25|INFO |Generated 1 programs
+2021-03-13 19:02:57|INFO |Generated 1 programs
+2021-03-13 19:13:28|INFO |Generated 1 programs
+2021-03-13 19:24:09|INFO |Generated 1 programs
+2021-03-13 19:34:41|INFO |Generated 1 programs
+2021-03-13 19:45:21|INFO |Generated 1 programs
+2021-03-13 19:57:52|INFO |Generated 1 programs
+2021-03-13 20:08:29|INFO |Generated 1 programs
+2021-03-13 20:19:07|INFO |Generated 1 programs
+2021-03-13 20:29:45|INFO |Generated 1 programs
+2021-03-13 20:40:21|INFO |Generated 1 programs
+2021-03-13 20:50:59|INFO |Generated 1 programs
+2021-03-13 21:01:37|INFO |Generated 1 programs
+2021-03-13 21:10:21|INFO |Generated 1 programs
+2021-03-13 21:20:58|INFO |Generated 1 programs
+2021-03-13 21:31:36|INFO |Generated 1 programs
+2021-03-13 21:42:13|INFO |Generated 1 programs
+2021-03-13 21:52:51|INFO |Generated 1 programs
+2021-03-13 22:03:31|INFO |Generated 1 programs
+2021-03-13 22:14:09|INFO |Generated 1 programs
+2021-03-13 22:20:21|INFO |Generated 2 programs
+2021-03-13 22:24:03|INFO |Generated 1 programs
+2021-03-13 22:26:24|INFO |Generated 2 programs
+2021-03-13 22:37:02|INFO |Generated 1 programs
+2021-03-13 22:47:40|INFO |Generated 1 programs
+2021-03-13 22:58:18|INFO |Generated 3 programs
+2021-03-13 23:08:58|INFO |Generated 1 programs
+2021-03-13 23:32:50|INFO |Generated 2 programs
+2021-03-13 23:56:36|INFO |Generated 1 programs
+2021-03-14 00:07:14|INFO |Generated 2 programs
+2021-03-14 00:17:51|INFO |Generated 1 programs
+2021-03-14 00:46:51|INFO |Generated 2 programs
+2021-03-14 00:55:35|INFO |Generated 1 programs
+2021-03-14 01:06:17|INFO |Generated 3 programs
+2021-03-14 01:16:56|INFO |Generated 1 programs
+2021-03-14 01:29:45|INFO |Generated 2 programs
+2021-03-14 01:38:27|INFO |Generated 1 programs
+2021-03-14 03:02:19|INFO |Generated 2 programs
+2021-03-14 03:13:01|INFO |Generated 4 programs
+2021-03-14 03:23:41|INFO |Generated 1 programs
+2021-03-14 03:36:40|INFO |Generated 2 programs
+2021-03-14 03:47:20|INFO |Generated 5 programs
+2021-03-14 03:58:04|INFO |Generated 1 programs
+2021-03-14 04:03:41|INFO |Generated 2 programs
+2021-03-14 04:09:16|INFO |Generated 1 programs
+2021-03-14 04:11:25|INFO |Generated 2 programs
+2021-03-14 04:13:53|INFO |Generated 2 programs
+2021-03-14 04:16:20|INFO |Generated 2 programs
+2021-03-14 04:18:29|INFO |Generated 3 programs
+2021-03-14 04:23:53|INFO |Generated 1 programs
+2021-03-14 04:23:54 URL:https://oeis.org/A316825/b316825.txt [536/536] -> "/home/jamie/.loda/oeis/b/316/b316825.txt" [1]
+2021-03-14 04:23:55|ALERT|First program for A316825: Fibonacci word A003849 with its initial term changed to 2. Terms: 2,1,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0,1,0,1
+2021-03-14 04:25:00|ALERT|First program for A289034: Fixed point of the morphism 0->010, 1->10 starting with 1. Terms: 1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0,1
+2021-03-14 04:25:54|INFO |Generated 138 programs
+2021-03-14 04:26:36 URL:https://oeis.org/A287659/b287659.txt [103341/103341] -> "/home/jamie/.loda/oeis/b/287/b287659.txt" [1]
+2021-03-14 04:26:41|ALERT|First program for A287659: Positions of 1 in A287657; complement of A287658. Terms: 2,3,6,8,9,12,13,16,18,19,22,24,25,28,29,32,34,35,38,39
+2021-03-14 04:26:41 URL:https://oeis.org/A120614/b120614.txt [5894/5894] -> "/home/jamie/.loda/oeis/b/120/b120614.txt" [1]
+2021-03-14 04:26:55|ALERT|First program for A120614: a(n) = g(n+1) - g(n) where g(k) = floor(phi*floor(k/phi)) and phi = (1+sqrt(5))/2. Terms: 1,0,2,1,0,2,0,2,1,0,2,1,0,2,0,2,1,0,2,0
+2021-03-14 04:28:50|INFO |Generated 68 programs
+2021-03-14 04:31:58|INFO |Generated 14 programs
+2021-03-14 04:34:36|INFO |Generated 4 programs
+2021-03-14 04:37:07|INFO |Generated 2 programs
+2021-03-14 04:39:37|INFO |Generated 9 programs
+2021-03-14 04:42:09|INFO |Generated 3 programs
+2021-03-14 04:44:42|INFO |Generated 2 programs
+2021-03-14 04:47:14|INFO |Generated 2 programs
+2021-03-14 04:49:48|INFO |Generated 3 programs
+2021-03-14 04:52:19|INFO |Generated 2 programs
+2021-03-14 04:59:51|INFO |Generated 6 programs
+2021-03-14 05:02:24|INFO |Generated 3 programs
+2021-03-14 05:04:56|INFO |Generated 4 programs
+2021-03-14 05:07:29|INFO |Generated 6 programs
+2021-03-14 05:10:01|INFO |Generated 7 programs
+2021-03-14 05:13:01|INFO |Generated 9 programs
+2021-03-14 05:15:59|INFO |Generated 3 programs
+2021-03-14 05:18:00|INFO |Generated 69 programs
+2021-03-14 05:20:40|INFO |Generated 27 programs
+2021-03-14 05:23:07|INFO |Generated 5 programs
+2021-03-14 05:25:34|INFO |Generated 2 programs
+2021-03-14 05:28:34|INFO |Generated 7 programs
+2021-03-14 05:31:02|INFO |Generated 2 programs
+2021-03-14 05:33:31|INFO |Generated 10 programs
+2021-03-14 05:36:49|INFO |Generated 3 programs
+2021-03-14 05:40:01|INFO |Generated 4 programs
+2021-03-14 05:42:27|INFO |Generated 2 programs
+2021-03-14 05:44:55|INFO |Generated 2 programs
+2021-03-14 05:47:43|INFO |Generated 11 programs
+2021-03-14 05:50:17|INFO |Generated 6 programs
+2021-03-14 05:52:44|INFO |Generated 2 programs
+2021-03-14 05:55:11|INFO |Generated 2 programs
+2021-03-14 05:57:38|INFO |Generated 2 programs
+2021-03-14 06:00:05|INFO |Generated 2 programs
+2021-03-14 06:05:32|INFO |Generated 2 programs
+2021-03-14 06:08:00|INFO |Generated 3 programs
+2021-03-14 06:10:29|INFO |Generated 2 programs
+2021-03-14 06:12:57|INFO |Generated 2 programs
+2021-03-14 06:18:19|INFO |Generated 3 programs
+2021-03-14 06:21:24|INFO |Generated 8 programs
+2021-03-14 06:23:52|INFO |Generated 5 programs
+2021-03-14 06:26:20|INFO |Generated 2 programs
+2021-03-14 06:29:21|INFO |Generated 7 programs
+2021-03-14 06:31:49|INFO |Generated 2 programs
+2021-03-14 06:34:20|INFO |Generated 10 programs
+2021-03-14 06:37:38|INFO |Generated 3 programs
+2021-03-14 06:39:39|INFO |Generated 3 programs
+2021-03-14 06:42:27|INFO |Generated 3 programs
+2021-03-14 06:44:37|INFO |Generated 1 programs
+2021-03-14 06:46:46|INFO |Generated 1 programs
+2021-03-14 06:48:55|INFO |Generated 1 programs
+2021-03-14 06:51:04|INFO |Generated 1 programs
+2021-03-14 06:53:15|INFO |Generated 1 programs
+2021-03-14 06:56:56|INFO |Generated 2 programs
+2021-03-14 07:00:37|INFO |Generated 2 programs
+2021-03-14 07:04:22|INFO |Generated 2 programs
+2021-03-14 07:08:02|INFO |Generated 2 programs
+2021-03-14 07:12:01|INFO |Generated 2 programs
+2021-03-14 07:14:10|INFO |Generated 1 programs
+2021-03-14 07:17:50|INFO |Generated 2 programs
+2021-03-14 07:21:32|INFO |Generated 2 programs
+2021-03-14 07:23:41|INFO |Generated 1 programs
+2021-03-14 07:25:49|INFO |Generated 1 programs
+2021-03-14 07:27:58|INFO |Generated 1 programs
+2021-03-14 07:30:07|INFO |Generated 1 programs
+2021-03-14 07:32:16|INFO |Generated 1 programs
+2021-03-14 07:34:26|INFO |Generated 1 programs
+2021-03-14 07:36:33|INFO |Generated 1 programs
+2021-03-14 07:38:42|INFO |Generated 1 programs
+2021-03-14 07:40:50|INFO |Generated 1 programs
+2021-03-14 07:46:17|INFO |Generated 2 programs
+2021-03-14 07:48:26|INFO |Generated 2 programs
+2021-03-14 07:50:35|INFO |Generated 1 programs
+2021-03-14 07:52:43|INFO |Generated 1 programs
+2021-03-14 07:54:53|INFO |Generated 1 programs
+2021-03-14 07:57:03|INFO |Generated 1 programs
+2021-03-14 07:59:12|INFO |Generated 1 programs
+2021-03-14 08:04:35|INFO |Generated 3 programs
+2021-03-14 08:06:50|INFO |Generated 7 programs
+2021-03-14 08:09:00|INFO |Generated 1 programs
+2021-03-14 08:11:08|INFO |Generated 1 programs
+2021-03-14 08:13:18|INFO |Generated 4 programs
+2021-03-14 08:15:27|INFO |Generated 1 programs
+2021-03-14 08:17:38|INFO |Generated 1 programs
+2021-03-14 08:21:38|INFO |Generated 7 programs
+2021-03-14 08:23:48|INFO |Generated 1 programs
+2021-03-14 08:25:57|INFO |Generated 1 programs
+2021-03-14 08:29:24|INFO |Generated 9 programs
+2021-03-14 08:31:34|INFO |Generated 1 programs
+2021-03-14 08:33:44|INFO |Generated 1 programs
+2021-03-14 08:37:21|INFO |Generated 2 programs
+2021-03-14 08:40:13|INFO |Generated 1 programs
+2021-03-14 08:42:24|INFO |Generated 3 programs
+2021-03-14 08:44:53|INFO |Generated 13 programs
+2021-03-14 08:47:15|INFO |Generated 7 programs
+2021-03-14 08:49:53|INFO |Generated 4 programs
+2021-03-14 08:57:36|INFO |Generated 5 programs
+2021-03-14 08:59:55|INFO |Generated 4 programs
+2021-03-14 09:02:14|INFO |Generated 5 programs
+2021-03-14 09:07:37|INFO |Generated 1 programs
+2021-03-14 09:07:40 URL:https://oeis.org/A005614/b005614.txt [76464/76464] -> "/home/jamie/.loda/oeis/b/005/b005614.txt" [1]
+2021-03-14 09:07:45|ALERT|First program for A005614: The binary complement of the infinite Fibonacci word A003849. Start with 1, apply 0->1, 1->10, iterate, take limit. Terms: 1,0,1,1,0,1,0,1,1,0,1,1,0,1,0,1,1,0,1,0
+2021-03-14 09:07:45 URL:https://oeis.org/A014675/b014675.txt [76464/76464] -> "/home/jamie/.loda/oeis/b/014/b014675.txt" [1]
+2021-03-14 09:07:50|ALERT|First program for A014675: The infinite Fibonacci word (start with 1, apply 1->2, 2->21, take limit). Terms: 2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,1
+2021-03-14 09:09:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 09:09:37|INFO |Generated 129 programs
+2021-03-14 09:11:57|INFO |Generated 44 programs
+2021-03-14 09:14:34|INFO |Generated 7 programs
+2021-03-14 09:18:08|INFO |Generated 6 programs
+2021-03-14 09:20:59|INFO |Generated 5 programs
+2021-03-14 09:22:59|INFO |Generated 9 programs
+2021-03-14 09:24:59|INFO |Generated 4 programs
+2021-03-14 09:27:17|INFO |Generated 4 programs
+2021-03-14 09:29:53|INFO |Generated 5 programs
+2021-03-14 09:32:04|INFO |Generated 14 programs
+2021-03-14 09:34:43|INFO |Generated 5 programs
+2021-03-14 09:37:20|INFO |Generated 4 programs
+2021-03-14 09:43:42|INFO |Generated 3 programs
+2021-03-14 09:46:01|INFO |Generated 4 programs
+2021-03-14 09:48:20|INFO |Generated 5 programs
+2021-03-14 09:53:42|INFO |Generated 1 programs
+2021-03-14 09:55:44|INFO |Generated 9 programs
+2021-03-14 09:59:29|INFO |Generated 8 programs
+2021-03-14 10:01:54|INFO |Generated 5 programs
+2021-03-14 10:04:05|INFO |Generated 4 programs
+2021-03-14 10:07:11|INFO |Generated 11 programs
+2021-03-14 10:09:17|INFO |Generated 24 programs
+2021-03-14 10:11:39|INFO |Generated 59 programs
+2021-03-14 10:13:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:13:42|INFO |Generated 1429 programs
+2021-03-14 10:13:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:14:14 URL:https://oeis.org/A333172/b333172.txt [167724/167724] -> "/home/jamie/.loda/oeis/b/333/b333172.txt" [1]
+2021-03-14 10:14:52 URL:https://oeis.org/A333174/b333174.txt [176859/176859] -> "/home/jamie/.loda/oeis/b/333/b333174.txt" [1]
+2021-03-14 10:16:48|INFO |Generated 696 programs
+2021-03-14 10:17:11|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:17:43|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:18:12|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:18:51|INFO |Generated 3111 programs
+2021-03-14 10:19:01|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:19:55|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:20:54|INFO |Generated 2322 programs
+2021-03-14 10:21:11|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:21:17 URL:https://oeis.org/A248359/b248359.txt [106645/106645] -> "/home/jamie/.loda/oeis/b/248/b248359.txt" [1]
+2021-03-14 10:21:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:23:17|INFO |Generated 1263 programs
+2021-03-14 10:24:04|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:25:12|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:25:18|INFO |Generated 2192 programs
+2021-03-14 10:26:04|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:26:54|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:27:19|INFO |Generated 2362 programs
+2021-03-14 10:27:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:28:15|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:28:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:29:34|INFO |Generated 2998 programs
+2021-03-14 10:29:50|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:30:22 URL:https://oeis.org/A206244/b206244.txt [7368/7368] -> "/home/jamie/.loda/oeis/b/206/b206244.txt" [1]
+2021-03-14 10:30:22 URL:https://oeis.org/A206245/b206245.txt [7630/7630] -> "/home/jamie/.loda/oeis/b/206/b206245.txt" [1]
+2021-03-14 10:30:27|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:31:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:31:40|INFO |Generated 2957 programs
+2021-03-14 10:31:53|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:32:47|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:33:36|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:33:42|INFO |Generated 2449 programs
+2021-03-14 10:33:54 URL:https://oeis.org/A156301/b156301.txt [97145/97145] -> "/home/jamie/.loda/oeis/b/156/b156301.txt" [1]
+2021-03-14 10:34:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:35:09|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:35:59|INFO |Generated 2702 programs
+2021-03-14 10:36:02|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:37:08|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:37:35|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:38:04|INFO |Generated 2677 programs
+2021-03-14 10:38:40|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:39:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:39:32 URL:https://oeis.org/A189792/b189792.txt [49960/49960] -> "/home/jamie/.loda/oeis/b/189/b189792.txt" [1]
+2021-03-14 10:39:43 URL:https://oeis.org/A179052/b179052.txt [9599/9599] -> "/home/jamie/.loda/oeis/b/179/b179052.txt" [1]
+2021-03-14 10:39:46|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:40:06|INFO |Generated 3114 programs
+2021-03-14 10:40:22|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:40:56|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:42:06|INFO |Generated 2304 programs
+2021-03-14 10:42:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:42:23 URL:https://oeis.org/A059555/b059555.txt [18194/18194] -> "/home/jamie/.loda/oeis/b/059/b059555.txt" [1]
+2021-03-14 10:42:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:44:07|INFO |Generated 1714 programs
+2021-03-14 10:44:27|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:45:10|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:46:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 10:46:08|INFO |Generated 2490 programs
+2021-03-14 11:00:12|INFO |Generated 569 programs
+2021-03-14 11:00:32|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:00:56|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:02:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:02:12|INFO |Generated 2797 programs
+2021-03-14 11:02:50|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:03:58|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:11:43|INFO |Generated 1678 programs
+2021-03-14 11:12:58|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:13:13 URL:https://oeis.org/A061601/b061601.txt [276561/276561] -> "/home/jamie/.loda/oeis/b/061/b061601.txt" [1]
+2021-03-14 11:13:31|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:13:44|INFO |Generated 2462 programs
+2021-03-14 11:14:09|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:15:04 URL:https://oeis.org/A076821/b076821.txt [7047/7047] -> "/home/jamie/.loda/oeis/b/076/b076821.txt" [1]
+2021-03-14 11:15:07|ALERT|First program for A076821: Squares of the differences between consecutive primes. Terms: 1,4,4,16,4,16,4,16,36,4,36,16,4,16,36,36,4,36,16,4
+2021-03-14 11:15:15|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:15:32 URL:https://oeis.org/A331743/b331743.txt [731825/731825] -> "/home/jamie/.loda/oeis/b/331/b331743.txt" [1]
+2021-03-14 11:15:46 URL:https://oeis.org/A025706/b025706.txt [132840/132840] -> "/home/jamie/.loda/oeis/b/025/b025706.txt" [1]
+2021-03-14 11:15:53|INFO |Generated 2442 programs
+2021-03-14 11:15:53|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:16:47|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:17:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:17:53|INFO |Generated 2204 programs
+2021-03-14 11:19:50|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:19:56|INFO |Generated 1070 programs
+2021-03-14 11:20:10|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:20:59 URL:https://oeis.org/A213852/b213852.txt [5894/5894] -> "/home/jamie/.loda/oeis/b/213/b213852.txt" [1]
+2021-03-14 11:21:28|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:23:36|INFO |Generated 1827 programs
+2021-03-14 11:32:14|INFO |Generated 925 programs
+2021-03-14 11:32:14|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:33:37|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:34:19|INFO |Generated 1506 programs
+2021-03-14 11:34:35|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:35:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:35:41|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:36:28|INFO |Generated 2839 programs
+2021-03-14 11:37:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:40:05 URL:https://oeis.org/A056576/b056576.txt [101891/101891] -> "/home/jamie/.loda/oeis/b/056/b056576.txt" [1]
+2021-03-14 11:40:06 URL:https://oeis.org/A122437/b122437.txt [8463/8463] -> "/home/jamie/.loda/oeis/b/122/b122437.txt" [1]
+2021-03-14 11:40:06|INFO |Generated 1589 programs
+2021-03-14 11:40:29|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:41:37|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:42:08|INFO |Generated 1557 programs
+2021-03-14 11:42:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:43:59|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:44:17|INFO |Generated 1927 programs
+2021-03-14 11:44:30|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:45:09|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:45:52|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:47:50|INFO |Generated 2689 programs
+2021-03-14 11:48:13|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:48:41 URL:https://oeis.org/A022840/b022840.txt [104360/104360] -> "/home/jamie/.loda/oeis/b/022/b022840.txt" [1]
+2021-03-14 11:48:42 URL:https://oeis.org/A277645/b277645.txt [106890/106890] -> "/home/jamie/.loda/oeis/b/277/b277645.txt" [1]
+2021-03-14 11:48:42 URL:https://oeis.org/A276856/b276856.txt [68895/68895] -> "/home/jamie/.loda/oeis/b/276/b276856.txt" [1]
+2021-03-14 11:49:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:49:53|INFO |Generated 2452 programs
+2021-03-14 11:50:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:51:18|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:51:56|INFO |Generated 2136 programs
+2021-03-14 11:52:02|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:52:22|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:53:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:53:06 URL:https://oeis.org/A055669/b055669.txt [10233/10233] -> "/home/jamie/.loda/oeis/b/055/b055669.txt" [1]
+2021-03-14 11:53:57|INFO |Generated 3210 programs
+2021-03-14 11:53:58 URL:https://oeis.org/A031771/b031771.txt [173602/173602] -> "/home/jamie/.loda/oeis/b/031/b031771.txt" [1]
+2021-03-14 11:54:04|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:55:16|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:55:56|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:56:00|INFO |Generated 2154 programs
+2021-03-14 11:57:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 11:59:17|INFO |Generated 1041 programs
+2021-03-14 12:00:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 12:00:29 URL:https://oeis.org/A043096/b043096.txt [100592/100592] -> "/home/jamie/.loda/oeis/b/043/b043096.txt" [1]
+2021-03-14 12:00:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 12:00:47 URL:https://oeis.org/A102492/b102492.txt [99644/99644] -> "/home/jamie/.loda/oeis/b/102/b102492.txt" [1]
+2021-03-14 12:01:19|INFO |Generated 2714 programs
+2021-03-14 12:01:29|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 12:02:24|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 12:03:11|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 12:03:20|INFO |Generated 2363 programs
+2021-03-14 12:04:06|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 12:04:19 URL:https://oeis.org/A189663/b189663.txt [45994/45994] -> "/home/jamie/.loda/oeis/b/189/b189663.txt" [1]
+2021-03-14 12:05:26|INFO |Generated 862 programs
+2021-03-14 12:05:29 URL:https://oeis.org/A007729/b007729.txt [116508/116508] -> "/home/jamie/.loda/oeis/b/007/b007729.txt" [1]
+2021-03-14 12:13:05|ALERT|First program for A007729: 6th binary partition function. Terms: 1,2,4,5,8,10,13,14,18,21,26,28,33,36,40,41,46,50,57,60
+2021-03-14 12:13:05|INFO |Generated 95 programs
+2021-03-14 12:17:02|INFO |Generated 11 programs
+2021-03-14 12:19:44|INFO |Generated 2 programs
+2021-03-14 12:22:24|INFO |Generated 1 programs
+2021-03-14 12:25:03|INFO |Generated 1 programs
+2021-03-14 12:27:42|INFO |Generated 1 programs
+2021-03-14 12:30:21|INFO |Generated 1 programs
+2021-03-14 12:33:03|INFO |Generated 1 programs
+2021-03-14 12:35:43|INFO |Generated 1 programs
+2021-03-14 12:38:23|INFO |Generated 1 programs
+2021-03-14 12:41:02|INFO |Generated 5 programs
+2021-03-14 12:43:41|INFO |Generated 1 programs
+2021-03-14 12:46:21|INFO |Generated 1 programs
+2021-03-14 12:49:01|INFO |Generated 2 programs
+2021-03-14 12:51:43|INFO |Generated 1 programs
+2021-03-14 12:54:24|INFO |Generated 1 programs
+2021-03-14 12:57:05|INFO |Generated 1 programs
+2021-03-14 12:59:46|INFO |Generated 1 programs
+2021-03-14 13:02:27|INFO |Generated 1 programs
+2021-03-14 13:05:06|INFO |Generated 1 programs
+2021-03-14 13:07:48|INFO |Generated 1 programs
+2021-03-14 13:10:28|INFO |Generated 1 programs
+2021-03-14 13:13:08|INFO |Generated 1 programs
+2021-03-14 13:15:49|INFO |Generated 1 programs
+2021-03-14 13:18:29|INFO |Generated 1 programs
+2021-03-14 13:21:11|INFO |Generated 1 programs
+2021-03-14 13:23:50|INFO |Generated 1 programs
+2021-03-14 13:26:30|INFO |Generated 1 programs
+2021-03-14 13:29:09|INFO |Generated 1 programs
+2021-03-14 13:31:49|INFO |Generated 1 programs
+2021-03-14 13:34:29|INFO |Generated 1 programs
+2021-03-14 13:37:08|INFO |Generated 1 programs
+2021-03-14 13:39:49|INFO |Generated 1 programs
+2021-03-14 13:42:29|INFO |Generated 1 programs
+2021-03-14 13:45:10|INFO |Generated 1 programs
+2021-03-14 13:47:49|INFO |Generated 1 programs
+2021-03-14 13:50:30|INFO |Generated 1 programs
+2021-03-14 13:52:41|INFO |Generated 2 programs
+2021-03-14 13:56:27|INFO |Generated 3 programs
+2021-03-14 13:59:08|INFO |Generated 1 programs
+2021-03-14 14:01:48|INFO |Generated 1 programs
+2021-03-14 14:04:29|INFO |Generated 1 programs
+2021-03-14 14:07:12|INFO |Generated 1 programs
+2021-03-14 14:09:50|INFO |Generated 1 programs
+2021-03-14 14:12:30|INFO |Generated 1 programs
+2021-03-14 14:15:12|INFO |Generated 1 programs
+2021-03-14 14:17:52|INFO |Generated 1 programs
+2021-03-14 14:20:33|INFO |Generated 1 programs
+2021-03-14 14:23:13|INFO |Generated 1 programs
+2021-03-14 14:25:52|INFO |Generated 1 programs
+2021-03-14 14:28:31|INFO |Generated 1 programs
+2021-03-14 14:31:10|INFO |Generated 1 programs
+2021-03-14 14:33:50|INFO |Generated 1 programs
+2021-03-14 14:36:29|INFO |Generated 1 programs
+2021-03-14 14:39:10|INFO |Generated 15 programs
+2021-03-14 14:41:49|INFO |Generated 1 programs
+2021-03-14 14:44:29|INFO |Generated 1 programs
+2021-03-14 14:47:10|INFO |Generated 1 programs
+2021-03-14 14:49:51|INFO |Generated 1 programs
+2021-03-14 14:52:31|INFO |Generated 2 programs
+2021-03-14 14:55:13|INFO |Generated 1 programs
+2021-03-14 14:57:54|INFO |Generated 1 programs
+2021-03-14 15:01:33|INFO |Generated 475 programs
+2021-03-14 15:01:40|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:02:22|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:04:45|INFO |Generated 2033 programs
+2021-03-14 15:04:59|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:05:57|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:06:35|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:06:45|INFO |Generated 2807 programs
+2021-03-14 15:07:02|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:08:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:08:45|INFO |Generated 1601 programs
+2021-03-14 15:09:12|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:09:43|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:10:20|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:10:46|INFO |Generated 3305 programs
+2021-03-14 15:11:18|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:11:53|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:12:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:12:57|INFO |Generated 2834 programs
+2021-03-14 15:13:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:14:12 URL:https://oeis.org/A081417/b081417.txt [14645/14645] -> "/home/jamie/.loda/oeis/b/081/b081417.txt" [1]
+2021-03-14 15:14:47|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:14:57|INFO |Generated 2005 programs
+2021-03-14 15:15:27|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:15:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:16:16|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:18:59|INFO |Generated 2913 programs
+2021-03-14 15:19:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:21:04|INFO |Generated 1758 programs
+2021-03-14 15:21:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:21:05 URL:https://oeis.org/A046100/b046100.txt [98629/98629] -> "/home/jamie/.loda/oeis/b/046/b046100.txt" [1]
+2021-03-14 15:21:31 URL:https://oeis.org/A025707/b025707.txt [132010/132010] -> "/home/jamie/.loda/oeis/b/025/b025707.txt" [1]
+2021-03-14 15:21:47|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:22:16|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:22:40 URL:https://oeis.org/A256971/b256971.txt [164383/164383] -> "/home/jamie/.loda/oeis/b/256/b256971.txt" [1]
+2021-03-14 15:23:05|INFO |Generated 2531 programs
+2021-03-14 15:23:29|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:25:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:25:05|INFO |Generated 1560 programs
+2021-03-14 15:25:54|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:29:22|INFO |Generated 1728 programs
+2021-03-14 15:29:28|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 15:30:12|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:33:37|INFO |Generated 2109 programs
+2021-03-14 17:33:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:34:02|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:34:58|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:35:41 URL:https://oeis.org/A024178/b024178.txt [192949/192949] -> "/home/jamie/.loda/oeis/b/024/b024178.txt" [1]
+2021-03-14 17:36:07|INFO |Generated 2681 programs
+2021-03-14 17:36:27|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:37:10|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:37:46|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:38:22|INFO |Generated 3094 programs
+2021-03-14 17:38:35|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:39:13 URL:https://oeis.org/A046075/b046075.txt [701188/701188] -> "/home/jamie/.loda/oeis/b/046/b046075.txt" [1]
+2021-03-14 17:39:46|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:40:22|INFO |Generated 2258 programs
+2021-03-14 17:40:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:40:48|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:41:49|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:42:08|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:42:11 URL:https://oeis.org/A059561/b059561.txt [17929/17929] -> "/home/jamie/.loda/oeis/b/059/b059561.txt" [1]
+2021-03-14 17:42:15 URL:https://oeis.org/A004919/b004919.txt [8738/8738] -> "/home/jamie/.loda/oeis/b/004/b004919.txt" [1]
+2021-03-14 17:42:17|ALERT|First program for A004919: Floor of n*phi^4, where phi is the golden ratio, A001622. Terms: 0,6,13,20,27,34,41,47,54,61,68,75,82,89,95,102,109,116,123,130
+2021-03-14 17:42:23|INFO |Generated 3369 programs
+2021-03-14 17:43:17|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:44:23|INFO |Generated 1088 programs
+2021-03-14 17:44:48|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:45:10 URL:https://oeis.org/A184977/b184977.txt [61175/61175] -> "/home/jamie/.loda/oeis/b/184/b184977.txt" [1]
+2021-03-14 17:46:23|INFO |Generated 1508 programs
+2021-03-14 17:46:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:47:16|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:48:35|INFO |Generated 1173 programs
+2021-03-14 17:49:26|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:50:01|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:50:36|INFO |Generated 2754 programs
+2021-03-14 17:50:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:51:44 URL:https://oeis.org/A246442/b246442.txt [8691/8691] -> "/home/jamie/.loda/oeis/b/246/b246442.txt" [1]
+2021-03-14 17:51:50|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:52:37|INFO |Generated 1814 programs
+2021-03-14 17:53:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:54:03|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:54:46|INFO |Generated 1443 programs
+2021-03-14 17:55:31|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:55:59|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:56:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:56:46|INFO |Generated 2997 programs
+2021-03-14 17:57:44|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:58:37|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 17:58:48|INFO |Generated 2099 programs
+2021-03-14 17:59:36|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:00:41|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:00:50|INFO |Generated 1992 programs
+2021-03-14 18:01:04 URL:https://oeis.org/A246411/b246411.txt [8365/8365] -> "/home/jamie/.loda/oeis/b/246/b246411.txt" [1]
+2021-03-14 18:01:26|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:02:25|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:02:52|INFO |Generated 2069 programs
+2021-03-14 18:03:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:04:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:04:55|INFO |Generated 1985 programs
+2021-03-14 18:05:15|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:06:03|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:06:04 URL:https://oeis.org/A030124/b030124.txt [97975/97975] -> "/home/jamie/.loda/oeis/b/030/b030124.txt" [1]
+2021-03-14 18:07:02|INFO |Generated 2370 programs
+2021-03-14 18:07:08|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:07:56|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:08:29|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:09:02|INFO |Generated 3187 programs
+2021-03-14 18:09:19|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:10:06|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:10:37|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:11:03|INFO |Generated 2583 programs
+2021-03-14 18:11:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:12:52|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:13:06|INFO |Generated 1876 programs
+2021-03-14 18:13:33|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:14:33 URL:https://oeis.org/A031378/b031378.txt [9537/9537] -> "/home/jamie/.loda/oeis/b/031/b031378.txt" [1]
+2021-03-14 18:14:52|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:15:06|INFO |Generated 1914 programs
+2021-03-14 18:15:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:16:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:17:40|INFO |Generated 2732 programs
+2021-03-14 18:17:40|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:18:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:18:32 URL:https://oeis.org/A253301/b253301.txt [102714/102714] -> "/home/jamie/.loda/oeis/b/253/b253301.txt" [1]
+2021-03-14 18:19:14|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:19:43|INFO |Generated 2666 programs
+2021-03-14 18:19:59|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:20:42|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:21:09|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:22:01|INFO |Generated 2973 programs
+2021-03-14 18:22:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:22:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:23:10|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:23:50|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:24:01|INFO |Generated 3728 programs
+2021-03-14 18:24:37|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:25:59|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:26:02|INFO |Generated 1872 programs
+2021-03-14 18:26:30|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:27:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:27:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:28:04|INFO |Generated 3180 programs
+2021-03-14 18:28:49|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:29:39|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:29:47 URL:https://oeis.org/A031370/b031370.txt [9537/9537] -> "/home/jamie/.loda/oeis/b/031/b031370.txt" [1]
+2021-03-14 18:30:15|INFO |Generated 2609 programs
+2021-03-14 18:30:18|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:30:35 URL:https://oeis.org/A025703/b025703.txt [131477/131477] -> "/home/jamie/.loda/oeis/b/025/b025703.txt" [1]
+2021-03-14 18:31:01|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:32:06|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:32:16|INFO |Generated 2298 programs
+2021-03-14 18:32:39 URL:https://oeis.org/A031918/b031918.txt [9733/9733] -> "/home/jamie/.loda/oeis/b/031/b031918.txt" [1]
+2021-03-14 18:35:11|INFO |Generated 760 programs
+2021-03-14 18:35:19|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:36:32|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:36:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:37:12|INFO |Generated 2443 programs
+2021-03-14 18:38:14|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:38:43|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:39:12|INFO |Generated 2589 programs
+2021-03-14 18:39:12|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:39:47|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:40:05 URL:https://oeis.org/A000193/b000193.txt [68900/68900] -> "/home/jamie/.loda/oeis/b/000/b000193.txt" [1]
+2021-03-14 18:40:12|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:41:09|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:41:14|INFO |Generated 3068 programs
+2021-03-14 18:41:40 URL:https://oeis.org/A032246/b032246.txt [13377/13377] -> "/home/jamie/.loda/oeis/b/032/b032246.txt" [1]
+2021-03-14 18:43:12|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:43:19|INFO |Generated 1047 programs
+2021-03-14 18:44:34|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:45:17|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:45:20|INFO |Generated 2060 programs
+2021-03-14 18:46:14|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:46:30|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:47:21|INFO |Generated 2401 programs
+2021-03-14 18:47:43|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:48:28|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:48:53|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:49:25|INFO |Generated 2855 programs
+2021-03-14 18:49:42|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:50:35|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:51:09|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:51:27|INFO |Generated 3008 programs
+2021-03-14 18:51:38|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:52:15|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:52:21 URL:https://oeis.org/A248524/b248524.txt [8542/8542] -> "/home/jamie/.loda/oeis/b/248/b248524.txt" [1]
+2021-03-14 18:53:28|INFO |Generated 2408 programs
+2021-03-14 18:53:36|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:54:19|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:55:12|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 18:55:34|INFO |Generated 2759 programs
+2021-03-14 18:56:32 URL:https://oeis.org/A329402/b329402.txt [77581/77581] -> "/home/jamie/.loda/oeis/b/329/b329402.txt" [1]
+2021-03-14 19:05:50|INFO |Generated 374 programs
+2021-03-14 19:05:51|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:07:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:07:41|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:07:54|INFO |Generated 2331 programs
+2021-03-14 19:08:14|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:08:48|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:09:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:09:40|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:09:55|INFO |Generated 4306 programs
+2021-03-14 19:10:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:10:46 URL:https://oeis.org/A110833/b110833.txt [12173/12173] -> "/home/jamie/.loda/oeis/b/110/b110833.txt" [1]
+2021-03-14 19:10:47|ALERT|First program for A110833: Squares of the form (p+1)^2, where p is prime. Terms: 9,16,36,64,144,196,324,400,576,900,1024,1444,1764,1936,2304,2916,3600,3844,4624,5184
+2021-03-14 19:11:55|INFO |Generated 1369 programs
+2021-03-14 19:11:55|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:13:05|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:13:57|INFO |Generated 1971 programs
+2021-03-14 19:14:08|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:14:28|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:15:18|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:15:58|INFO |Generated 2659 programs
+2021-03-14 19:16:17|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:17:10|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:17:49|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:18:03|INFO |Generated 2443 programs
+2021-03-14 19:18:36 URL:https://oeis.org/A063511/b063511.txt [64174/64174] -> "/home/jamie/.loda/oeis/b/063/b063511.txt" [1]
+2021-03-14 19:18:36|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:19:46|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:20:00 URL:https://oeis.org/A204185/b204185.txt [15191/15191] -> "/home/jamie/.loda/oeis/b/204/b204185.txt" [1]
+2021-03-14 19:20:38|INFO |Generated 2260 programs
+2021-03-14 19:21:20|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:21:31 URL:https://oeis.org/A333170/b333170.txt [164644/164644] -> "/home/jamie/.loda/oeis/b/333/b333170.txt" [1]
+2021-03-14 19:22:39|INFO |Generated 1241 programs
+2021-03-14 19:23:02|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:24:03|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:24:18|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:24:40|INFO |Generated 3314 programs
+2021-03-14 19:24:40|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:24:44 URL:https://oeis.org/A230799/b230799.txt [5893/5893] -> "/home/jamie/.loda/oeis/b/230/b230799.txt" [1]
+2021-03-14 19:25:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:26:00|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:26:51|INFO |Generated 2834 programs
+2021-03-14 19:27:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:27:46|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:27:56 URL:https://oeis.org/A198272/b198272.txt [106204/106204] -> "/home/jamie/.loda/oeis/b/198/b198272.txt" [1]
+2021-03-14 19:28:07|ALERT|First program for A198272: [Round(n*sqrt(17)). Terms: 0,4,8,12,16,21,25,29,33,37,41,45,49,54,58,62,66,70,74,78
+2021-03-14 19:28:52|INFO |Generated 1656 programs
+2021-03-14 19:30:52|INFO |Generated 302 programs
+2021-03-14 19:30:59 URL:https://oeis.org/A106742/b106742.txt [86278/86278] -> "/home/jamie/.loda/oeis/b/106/b106742.txt" [1]
+2021-03-14 19:31:14|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:32:01|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:32:56|INFO |Generated 2196 programs
+2021-03-14 19:33:07|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:34:21|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:34:57|INFO |Generated 1762 programs
+2021-03-14 19:35:23|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:35:48|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:36:45|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:37:01|INFO |Generated 2844 programs
+2021-03-14 19:37:33|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:38:26|INFO |Reached maximum physical memory limit of 1024MB
+2021-03-14 19:39:06|INFO |Generated 1693 programs
+2021-03-14 20:53:59|INFO |Generated 18 programs
+2021-03-14 20:55:59|INFO |Generated 3484 programs
+2021-03-14 20:57:34 URL:https://oeis.org/A050997/b050997.txt [22375/22375] -> "/home/jamie/.loda/oeis/b/050/b050997.txt" [1]
+2021-03-14 20:58:00|INFO |Generated 3466 programs
+2021-03-14 21:00:00|INFO |Generated 2855 programs
+2021-03-14 21:02:03|INFO |Generated 2302 programs
+2021-03-14 21:04:23|INFO |Generated 1188 programs
+2021-03-14 21:06:26|INFO |Generated 2442 programs
+2021-03-14 21:08:34|INFO |Generated 2750 programs
+2021-03-14 21:10:39|INFO |Generated 2222 programs
+2021-03-14 21:12:39|INFO |Generated 2142 programs
+2021-03-14 21:14:57|INFO |Generated 1802 programs
+2021-03-14 21:17:04|INFO |Generated 2655 programs
+2021-03-14 21:19:08|INFO |Generated 2048 programs
+2021-03-14 21:27:08|INFO |Generated 2174 programs
+2021-03-14 21:29:10|INFO |Generated 3223 programs
+2021-03-14 21:31:10|INFO |Generated 2615 programs
+2021-03-14 22:01:31|INFO |Generated 1625 programs
+2021-03-14 22:03:44|INFO |Generated 1474 programs
+2021-03-14 22:05:46|INFO |Generated 1081 programs
+2021-03-14 22:07:52|INFO |Generated 2349 programs
+2021-03-14 22:10:19|INFO |Generated 2688 programs
+2021-03-14 22:12:20|INFO |Generated 2570 programs
+2021-03-14 22:13:00 URL:https://oeis.org/A088954/b088954.txt [30634/30634] -> "/home/jamie/.loda/oeis/b/088/b088954.txt" [1]
+2021-03-14 22:14:20|INFO |Generated 1759 programs
+2021-03-14 22:16:27|INFO |Generated 2877 programs
+2021-03-14 22:17:47 URL:https://oeis.org/A051022/b051022.txt [126686/126686] -> "/home/jamie/.loda/oeis/b/051/b051022.txt" [1]
+2021-03-14 22:17:48 URL:https://oeis.org/A252480/b252480.txt [107004/107004] -> "/home/jamie/.loda/oeis/b/252/b252480.txt" [1]
+2021-03-14 22:17:49 URL:https://oeis.org/A323142/b323142.txt [246141/246141] -> "/home/jamie/.loda/oeis/b/323/b323142.txt" [1]
+2021-03-14 22:17:50 URL:https://oeis.org/A338754/b338754.txt [136686/136686] -> "/home/jamie/.loda/oeis/b/338/b338754.txt" [1]
+2021-03-14 22:18:27|INFO |Generated 2303 programs
+2021-03-14 22:20:29|INFO |Generated 2413 programs
+2021-03-14 22:22:05 URL:https://oeis.org/A209661/b209661.txt [73901/73901] -> "/home/jamie/.loda/oeis/b/209/b209661.txt" [1]
+2021-03-14 22:23:58|INFO |Generated 1690 programs
+2021-03-14 22:26:01|INFO |Generated 3188 programs
+2021-03-14 22:31:34|INFO |Generated 2082 programs
+2021-03-14 22:33:34|INFO |Generated 2844 programs
+2021-03-14 22:33:47 URL:https://oeis.org/A262038/b262038.txt [97792/97792] -> "/home/jamie/.loda/oeis/b/262/b262038.txt" [1]
+2021-03-14 22:35:36|INFO |Generated 2606 programs
+2021-03-14 22:37:36|INFO |Generated 3039 programs
+2021-03-14 22:37:55 URL:https://oeis.org/A036042/b036042.txt [73161/73161] -> "/home/jamie/.loda/oeis/b/036/b036042.txt" [1]
+2021-03-14 22:37:58 URL:https://oeis.org/A303592/b303592.txt [30080/30080] -> "/home/jamie/.loda/oeis/b/303/b303592.txt" [1]
+2021-03-14 22:39:36|INFO |Generated 2990 programs
+2021-03-14 22:52:02|INFO |Generated 2600 programs
+2021-03-14 22:52:04 URL:https://oeis.org/A033930/b033930.txt [78708/78708] -> "/home/jamie/.loda/oeis/b/033/b033930.txt" [1]
+2021-03-14 22:54:06|INFO |Generated 2381 programs
+2021-03-14 22:56:07|INFO |Generated 1860 programs
+2021-03-14 22:58:07|INFO |Generated 2194 programs
+2021-03-14 23:00:37|INFO |Generated 922 programs
+2021-03-14 23:02:40|INFO |Generated 1422 programs
+2021-03-14 23:04:16 URL:https://oeis.org/A031734/b031734.txt [163399/163399] -> "/home/jamie/.loda/oeis/b/031/b031734.txt" [1]
+2021-03-14 23:04:40|INFO |Generated 3371 programs
+2021-03-14 23:06:40|INFO |Generated 1864 programs
+2021-03-14 23:08:42|INFO |Generated 1882 programs
+2021-03-14 23:10:44|INFO |Generated 2360 programs
+2021-03-14 23:12:44|INFO |Generated 2223 programs
+2021-03-14 23:14:13 URL:https://oeis.org/A093618/b093618.txt [15854/15854] -> "/home/jamie/.loda/oeis/b/093/b093618.txt" [1]
+2021-03-14 23:14:48|INFO |Generated 2703 programs
+2021-03-14 23:15:49 URL:https://oeis.org/A034953/b034953.txt [151611/151611] -> "/home/jamie/.loda/oeis/b/034/b034953.txt" [1]
+2021-03-14 23:15:51|ALERT|First program for A034953: Triangular numbers (A000217) with prime indices. Terms: 3,6,15,28,66,91,153,190,276,435,496,703,861,946,1128,1431,1770,1891,2278,2556
+2021-03-14 23:15:52 URL:https://oeis.org/A036690/b036690.txt [12174/12174] -> "/home/jamie/.loda/oeis/b/036/b036690.txt" [1]
+2021-03-14 23:15:53|ALERT|First program for A036690: Product of a prime and the following number. Terms: 6,12,30,56,132,182,306,380,552,870,992,1406,1722,1892,2256,2862,3540,3782,4556,5112
+2021-03-14 23:15:54 URL:https://oeis.org/A060800/b060800.txt [12177/12177] -> "/home/jamie/.loda/oeis/b/060/b060800.txt" [1]
+2021-03-14 23:15:55|ALERT|First program for A060800: a(n) = p^2 + p + 1 where p runs through the primes. Terms: 7,13,31,57,133,183,307,381,553,871,993,1407,1723,1893,2257,2863,3541,3783,4557,5113
+2021-03-14 23:15:56 URL:https://oeis.org/A319597/b319597.txt [154010/154010] -> "/home/jamie/.loda/oeis/b/319/b319597.txt" [1]
+2021-03-14 23:15:58|ALERT|First program for A319597: Number of conjugacy classes for a non-abelian group of order p^3, where p is prime: a(n) = p^2 + p - 1 where p = prime(n). Terms: 5,11,29,55,131,181,305,379,551,869,991,1405,1721,1891,2255,2861,3539,3781,4555,5111
+2021-03-14 23:16:49|INFO |Generated 2618 programs
+2021-03-14 23:19:34|INFO |Generated 1787 programs
+2021-03-14 23:21:35|INFO |Generated 1320 programs
+2021-03-14 23:23:45|INFO |Generated 2816 programs
+2021-03-14 23:25:53|INFO |Generated 2626 programs
+2021-03-14 23:27:53|INFO |Generated 2489 programs
+2021-03-14 23:28:38 URL:https://oeis.org/A036439/b036439.txt [11050/11050] -> "/home/jamie/.loda/oeis/b/036/b036439.txt" [1]
+2021-03-14 23:30:03|INFO |Generated 3246 programs
+2021-03-14 23:32:12|INFO |Generated 2059 programs
+2021-03-14 23:32:38 URL:https://oeis.org/A102491/b102491.txt [107034/107034] -> "/home/jamie/.loda/oeis/b/102/b102491.txt" [1]
+2021-03-14 23:34:12|INFO |Generated 2355 programs
+2021-03-14 23:36:13|INFO |Generated 2164 programs
+2021-03-14 23:36:45 URL:https://oeis.org/A175967/b175967.txt [132900/132900] -> "/home/jamie/.loda/oeis/b/175/b175967.txt" [1]
+2021-03-14 23:38:14|INFO |Generated 2103 programs
+2021-03-14 23:40:14|INFO |Generated 2630 programs
+2021-03-14 23:42:19|INFO |Generated 2986 programs
+2021-03-14 23:44:01 URL:https://oeis.org/A043562/b043562.txt [68899/68899] -> "/home/jamie/.loda/oeis/b/043/b043562.txt" [1]
+2021-03-14 23:44:19|INFO |Generated 2855 programs
+2021-03-14 23:46:20|INFO |Generated 2897 programs
+2021-03-14 23:48:22|INFO |Generated 2684 programs
+2021-03-14 23:50:22|INFO |Generated 1863 programs
+2021-03-14 23:52:23|INFO |Generated 2611 programs
+2021-03-14 23:54:23|INFO |Generated 1537 programs
+^C
+jamie@jamie-VirtualBox:~/Desktop/loda$ 
